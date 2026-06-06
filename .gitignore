@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+build/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+smartcity-backend.zip
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS Files
+.DS_Store
+Thumbs.db

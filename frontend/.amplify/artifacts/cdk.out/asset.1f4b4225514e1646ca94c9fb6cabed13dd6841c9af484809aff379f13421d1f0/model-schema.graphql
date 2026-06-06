@@ -1,0 +1,61 @@
+type User @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  email: String
+  displayName: String
+  role: String
+  avatarUrl: String
+}
+
+type AccidentReport @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  userId: String
+  location: String
+  description: String
+  status: String
+  severity: String
+  ambulanceRequested: Boolean
+}
+
+type CrimeReport @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  userId: String
+  type: String
+  location: String
+  description: String
+  status: String
+}
+
+type WasteReport @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  userId: String
+  location: String
+  description: String
+  status: String
+  imageUrl: String
+}
+
+type Message @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  senderId: String
+  receiverId: String
+  content: String
+  read: Boolean
+}
+
+type FoodDonation @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  donorId: String
+  foodType: String
+  quantity: String
+  location: String
+  expirationDate: AWSDateTime
+  status: String
+  claimedById: String
+}
+
+type TrustScore @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  userId: String
+  score: Int
+  lastUpdated: AWSDateTime
+}

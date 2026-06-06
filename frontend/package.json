@@ -1,0 +1,50 @@
+{
+  "name": "smartcity-platform",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/ui-react": "^6.15.4",
+    "@aws-sdk/client-bedrock-runtime": "^3.1061.0",
+    "@aws-sdk/client-dynamodb": "^3.1061.0",
+    "@aws-sdk/client-s3": "^3.1061.0",
+    "@aws-sdk/s3-request-presigner": "^3.1061.0",
+    "@aws-sdk/util-dynamodb": "^3.996.2",
+    "crypto-js": "^4.2.0",
+    "firebase": "^10.14.1",
+    "i18next": "^26.3.1",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.17.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^17.0.8",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "^5.0.1",
+    "recharts": "^2.5.0",
+    "uuid": "^14.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.23.0",
+    "@aws-amplify/backend-cli": "^1.8.3",
+    "aws-cdk-lib": "^2.244.0",
+    "constructs": "^10.6.0",
+    "esbuild": "^0.28.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3"
+  }
+}

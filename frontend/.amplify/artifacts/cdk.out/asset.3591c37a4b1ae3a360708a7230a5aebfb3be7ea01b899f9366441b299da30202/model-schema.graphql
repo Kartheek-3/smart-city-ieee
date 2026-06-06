@@ -1,0 +1,26 @@
+type Issue @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  userId: String
+  description: String
+  category: String
+  address: String
+  status: String
+  createdAt: AWSDateTime
+}
+
+type Crime @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  userId: String
+  type: String
+  location: String
+  description: String
+  createdAt: AWSDateTime
+}
+
+type Accident @model @auth(rules: [{allow: public, provider: apiKey}])
+{
+  userId: String
+  location: String
+  description: String
+  createdAt: AWSDateTime
+}

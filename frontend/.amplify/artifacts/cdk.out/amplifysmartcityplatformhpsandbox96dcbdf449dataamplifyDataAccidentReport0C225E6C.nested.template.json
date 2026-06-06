@@ -1,0 +1,2080 @@
+{
+ "Parameters": {
+  "DynamoDBModelTableReadIOPS": {
+   "Type": "Number",
+   "Default": 5,
+   "Description": "The number of read IOPS the table should support."
+  },
+  "DynamoDBModelTableWriteIOPS": {
+   "Type": "Number",
+   "Default": 5,
+   "Description": "The number of write IOPS the table should support."
+  },
+  "DynamoDBBillingMode": {
+   "Type": "String",
+   "Default": "PAY_PER_REQUEST",
+   "AllowedValues": [
+    "PAY_PER_REQUEST",
+    "PROVISIONED"
+   ],
+   "Description": "Configure @model types to create DynamoDB tables with PAY_PER_REQUEST or PROVISIONED billing modes."
+  },
+  "DynamoDBEnablePointInTimeRecovery": {
+   "Type": "String",
+   "Default": "false",
+   "AllowedValues": [
+    "true",
+    "false"
+   ],
+   "Description": "Whether to enable Point in Time Recovery on the table."
+  },
+  "DynamoDBEnableServerSideEncryption": {
+   "Type": "String",
+   "Default": "true",
+   "AllowedValues": [
+    "true",
+    "false"
+   ],
+   "Description": "Enable server side encryption powered by KMS."
+  },
+  "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputsamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManageC95D1E77": {
+   "Type": "String"
+  },
+  "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId": {
+   "Type": "String"
+  },
+  "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName": {
+   "Type": "String"
+  },
+  "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref": {
+   "Type": "String"
+  },
+  "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef": {
+   "Type": "String"
+  },
+  "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref": {
+   "Type": "String"
+  }
+ },
+ "Conditions": {
+  "HasEnvironmentParameter": {
+   "Fn::Not": [
+    {
+     "Fn::Equals": [
+      "NONE",
+      "NONE"
+     ]
+    }
+   ]
+  },
+  "ShouldUsePayPerRequestBilling": {
+   "Fn::Equals": [
+    {
+     "Ref": "DynamoDBBillingMode"
+    },
+    "PAY_PER_REQUEST"
+   ]
+  },
+  "ShouldUsePointInTimeRecovery": {
+   "Fn::Equals": [
+    {
+     "Ref": "DynamoDBEnablePointInTimeRecovery"
+    },
+    "true"
+   ]
+  },
+  "CDKMetadataAvailable": {
+   "Fn::Or": [
+    {
+     "Fn::Or": [
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "af-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-east-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-northeast-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-northeast-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-northeast-3"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-south-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-southeast-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-southeast-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-southeast-3"
+       ]
+      }
+     ]
+    },
+    {
+     "Fn::Or": [
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ap-southeast-4"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ca-central-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "ca-west-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "cn-north-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "cn-northwest-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-central-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-central-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-north-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-south-2"
+       ]
+      }
+     ]
+    },
+    {
+     "Fn::Or": [
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-west-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-west-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "eu-west-3"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "il-central-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "me-central-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "me-south-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "sa-east-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "us-east-1"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "us-east-2"
+       ]
+      },
+      {
+       "Fn::Equals": [
+        {
+         "Ref": "AWS::Region"
+        },
+        "us-west-1"
+       ]
+      }
+     ]
+    },
+    {
+     "Fn::Equals": [
+      {
+       "Ref": "AWS::Region"
+      },
+      "us-west-2"
+     ]
+    }
+   ]
+  }
+ },
+ "Resources": {
+  "AccidentReportTable": {
+   "Type": "Custom::AmplifyDynamoDBTable",
+   "Properties": {
+    "ServiceToken": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputsamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManageC95D1E77"
+    },
+    "tableName": {
+     "Fn::Join": [
+      "",
+      [
+       "AccidentReport-",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "-NONE"
+      ]
+     ]
+    },
+    "attributeDefinitions": [
+     {
+      "attributeName": "id",
+      "attributeType": "S"
+     }
+    ],
+    "keySchema": [
+     {
+      "attributeName": "id",
+      "keyType": "HASH"
+     }
+    ],
+    "provisionedThroughput": {
+     "Fn::If": [
+      "ShouldUsePayPerRequestBilling",
+      {
+       "Ref": "AWS::NoValue"
+      },
+      {
+       "ReadCapacityUnits": {
+        "Ref": "DynamoDBModelTableReadIOPS"
+       },
+       "WriteCapacityUnits": {
+        "Ref": "DynamoDBModelTableWriteIOPS"
+       }
+      }
+     ]
+    },
+    "sseSpecification": {
+     "sseEnabled": false
+    },
+    "streamSpecification": {
+     "streamViewType": "NEW_AND_OLD_IMAGES"
+    },
+    "deletionProtectionEnabled": false,
+    "allowDestructiveGraphqlSchemaUpdates": true,
+    "replaceTableUponGsiUpdate": true,
+    "pointInTimeRecoverySpecification": {
+     "Fn::If": [
+      "ShouldUsePointInTimeRecovery",
+      {
+       "PointInTimeRecoveryEnabled": true
+      },
+      {
+       "Ref": "AWS::NoValue"
+      }
+     ]
+    },
+    "billingMode": {
+     "Fn::If": [
+      "ShouldUsePayPerRequestBilling",
+      "PAY_PER_REQUEST",
+      {
+       "Ref": "AWS::NoValue"
+      }
+     ]
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/AccidentReportTable/Default/Default"
+   }
+  },
+  "AccidentReportIAMRole38689128": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "appsync.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "Policies": [
+     {
+      "PolicyDocument": {
+       "Statement": [
+        {
+         "Action": [
+          "dynamodb:BatchGetItem",
+          "dynamodb:BatchWriteItem",
+          "dynamodb:PutItem",
+          "dynamodb:DeleteItem",
+          "dynamodb:GetItem",
+          "dynamodb:Scan",
+          "dynamodb:Query",
+          "dynamodb:UpdateItem",
+          "dynamodb:ConditionCheckItem",
+          "dynamodb:DescribeTable",
+          "dynamodb:GetRecords",
+          "dynamodb:GetShardIterator"
+         ],
+         "Effect": "Allow",
+         "Resource": [
+          {
+           "Fn::Sub": [
+            "arn:${AWS::Partition}:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${tablename}",
+            {
+             "tablename": {
+              "Fn::Join": [
+               "",
+               [
+                "AccidentReport-",
+                {
+                 "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+                },
+                "-NONE"
+               ]
+              ]
+             }
+            }
+           ]
+          },
+          {
+           "Fn::Sub": [
+            "arn:${AWS::Partition}:dynamodb:${AWS::Region}:${AWS::AccountId}:table/${tablename}/*",
+            {
+             "tablename": {
+              "Fn::Join": [
+               "",
+               [
+                "AccidentReport-",
+                {
+                 "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+                },
+                "-NONE"
+               ]
+              ]
+             }
+            }
+           ]
+          }
+         ]
+        }
+       ],
+       "Version": "2012-10-17"
+      },
+      "PolicyName": "DynamoDBAccess"
+     }
+    ],
+    "RoleName": {
+     "Fn::Join": [
+      "",
+      [
+       "AccidentReportIAMRol3e7e80-",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "-NONE"
+      ]
+     ]
+    },
+    "Tags": [
+     {
+      "Key": "amplify:deployment-type",
+      "Value": "sandbox"
+     },
+     {
+      "Key": "amplify:friendly-name",
+      "Value": "amplifyData"
+     },
+     {
+      "Key": "created-by",
+      "Value": "amplify"
+     }
+    ]
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/AccidentReportIAMRole/Resource"
+   }
+  },
+  "AccidentReportDataSource": {
+   "Type": "AWS::AppSync::DataSource",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DynamoDBConfig": {
+     "AwsRegion": {
+      "Ref": "AWS::Region"
+     },
+     "TableName": {
+      "Fn::Select": [
+       1,
+       {
+        "Fn::Split": [
+         "/",
+         {
+          "Fn::Select": [
+           5,
+           {
+            "Fn::Split": [
+             ":",
+             {
+              "Fn::GetAtt": [
+               "AccidentReportTable",
+               "TableArn"
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    },
+    "Name": "AccidentReportTable",
+    "ServiceRoleArn": {
+     "Fn::GetAtt": [
+      "AccidentReportIAMRole38689128",
+      "Arn"
+     ]
+    },
+    "Type": "AMAZON_DYNAMODB"
+   },
+   "DependsOn": [
+    "AccidentReportIAMRole38689128"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/AccidentReportDataSource/Resource"
+   }
+  },
+  "QuerygetAccidentReportauth0FunctionQuerygetAccidentReportauth0FunctionAppSyncFunction137893C2": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QuerygetAccidentReportauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/0224a3e5097427da3f4460b5d6d2b86ad4195c9cb8da7bc13e7187eead1c3ae3.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QuerygetAccidentReportauth0Function/QuerygetAccidentReportauth0Function.AppSyncFunction"
+   }
+  },
+  "QuerygetAccidentReportpostAuth0FunctionQuerygetAccidentReportpostAuth0FunctionAppSyncFunction77DEA51D": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QuerygetAccidentReportpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QuerygetAccidentReportpostAuth0Function/QuerygetAccidentReportpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "QueryGetAccidentReportDataResolverFnQueryGetAccidentReportDataResolverFnAppSyncFunction5667EB88": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "AccidentReportDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QueryGetAccidentReportDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/08f4d557693d96c1a4efba0f9dc91330e4b19772fd5477c156468843e3d9cb5e.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/4c6a2d29f01c6091bd1d9afe16e5849d456c96f17c3b215938c8067399532719.vtl"
+    }
+   },
+   "DependsOn": [
+    "AccidentReportDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QueryGetAccidentReportDataResolverFn/QueryGetAccidentReportDataResolverFn.AppSyncFunction"
+   }
+  },
+  "GetAccidentReportResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "FieldName": "getAccidentReport",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "QuerygetAccidentReportauth0FunctionQuerygetAccidentReportauth0FunctionAppSyncFunction137893C2",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "QuerygetAccidentReportpostAuth0FunctionQuerygetAccidentReportpostAuth0FunctionAppSyncFunction77DEA51D",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "QueryGetAccidentReportDataResolverFnQueryGetAccidentReportDataResolverFnAppSyncFunction5667EB88",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Query\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"getAccidentReport\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"AMAZON_DYNAMODB\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n$util.qr($ctx.stash.put(\"tableName\", \"",
+       {
+        "Fn::Select": [
+         1,
+         {
+          "Fn::Split": [
+           "/",
+           {
+            "Fn::Select": [
+             5,
+             {
+              "Fn::Split": [
+               ":",
+               {
+                "Fn::GetAtt": [
+                 "AccidentReportTable",
+                 "TableArn"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Query"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/queryGetAccidentReportResolver"
+   }
+  },
+  "QuerylistAccidentReportsauth0FunctionQuerylistAccidentReportsauth0FunctionAppSyncFunction4D9B269D": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QuerylistAccidentReportsauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/0224a3e5097427da3f4460b5d6d2b86ad4195c9cb8da7bc13e7187eead1c3ae3.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QuerylistAccidentReportsauth0Function/QuerylistAccidentReportsauth0Function.AppSyncFunction"
+   }
+  },
+  "QuerylistAccidentReportspostAuth0FunctionQuerylistAccidentReportspostAuth0FunctionAppSyncFunction9A3114CA": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QuerylistAccidentReportspostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QuerylistAccidentReportspostAuth0Function/QuerylistAccidentReportspostAuth0Function.AppSyncFunction"
+   }
+  },
+  "QueryListAccidentReportsDataResolverFnQueryListAccidentReportsDataResolverFnAppSyncFunction906733FF": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "AccidentReportDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "QueryListAccidentReportsDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/9fcbe070ecd3023c5bf5b966fa9584757db9762eef123bad0820bd87591b2174.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/cc01911d0269d4080ea57505dc445dfc315ef7ad85d3d9d4ea1357858bff451d.vtl"
+    }
+   },
+   "DependsOn": [
+    "AccidentReportDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QueryListAccidentReportsDataResolverFn/QueryListAccidentReportsDataResolverFn.AppSyncFunction"
+   }
+  },
+  "ListAccidentReportResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "FieldName": "listAccidentReports",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "QuerylistAccidentReportsauth0FunctionQuerylistAccidentReportsauth0FunctionAppSyncFunction4D9B269D",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "QuerylistAccidentReportspostAuth0FunctionQuerylistAccidentReportspostAuth0FunctionAppSyncFunction9A3114CA",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "QueryListAccidentReportsDataResolverFnQueryListAccidentReportsDataResolverFnAppSyncFunction906733FF",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Query\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"listAccidentReports\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"AMAZON_DYNAMODB\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n$util.qr($ctx.stash.put(\"tableName\", \"",
+       {
+        "Fn::Select": [
+         1,
+         {
+          "Fn::Split": [
+           "/",
+           {
+            "Fn::Select": [
+             5,
+             {
+              "Fn::Split": [
+               ":",
+               {
+                "Fn::GetAtt": [
+                 "AccidentReportTable",
+                 "TableArn"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Query"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/queryListAccidentReportsResolver"
+   }
+  },
+  "MutationcreateAccidentReportinit0FunctionMutationcreateAccidentReportinit0FunctionAppSyncFunction40C5B21F": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationcreateAccidentReportinit0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/a183ddccbd956316c38ef97177b8f088ef0826f62023323f5ae6053d348ccffc.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationcreateAccidentReportinit0Function/MutationcreateAccidentReportinit0Function.AppSyncFunction"
+   }
+  },
+  "MutationcreateAccidentReportauth0FunctionMutationcreateAccidentReportauth0FunctionAppSyncFunction8D79C664": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationcreateAccidentReportauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/d637c1fb7301003b8a5ada269338cf2e8df6cc0dc412ef13acc6158d680b6d3e.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationcreateAccidentReportauth0Function/MutationcreateAccidentReportauth0Function.AppSyncFunction"
+   }
+  },
+  "MutationcreateAccidentReportpostAuth0FunctionMutationcreateAccidentReportpostAuth0FunctionAppSyncFunction23731220": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationcreateAccidentReportpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationcreateAccidentReportpostAuth0Function/MutationcreateAccidentReportpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "MutationCreateAccidentReportDataResolverFnMutationCreateAccidentReportDataResolverFnAppSyncFunction184EFFA5": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "AccidentReportDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationCreateAccidentReportDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/6d8700f2018e694b79e7f207ec3fb5fa67bc4047a223efd232d4fba4c87847bc.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/f4a52b72209a9dfa197b5e7367a5c378c5bb86de6e29ddd9e48b49a3fe54b249.vtl"
+    }
+   },
+   "DependsOn": [
+    "AccidentReportDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationCreateAccidentReportDataResolverFn/MutationCreateAccidentReportDataResolverFn.AppSyncFunction"
+   }
+  },
+  "CreateAccidentReportResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "FieldName": "createAccidentReport",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "MutationcreateAccidentReportinit0FunctionMutationcreateAccidentReportinit0FunctionAppSyncFunction40C5B21F",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationcreateAccidentReportauth0FunctionMutationcreateAccidentReportauth0FunctionAppSyncFunction8D79C664",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationcreateAccidentReportpostAuth0FunctionMutationcreateAccidentReportpostAuth0FunctionAppSyncFunction23731220",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationCreateAccidentReportDataResolverFnMutationCreateAccidentReportDataResolverFnAppSyncFunction184EFFA5",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Mutation\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"createAccidentReport\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"AMAZON_DYNAMODB\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n$util.qr($ctx.stash.put(\"tableName\", \"",
+       {
+        "Fn::Select": [
+         1,
+         {
+          "Fn::Split": [
+           "/",
+           {
+            "Fn::Select": [
+             5,
+             {
+              "Fn::Split": [
+               ":",
+               {
+                "Fn::GetAtt": [
+                 "AccidentReportTable",
+                 "TableArn"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Mutation"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/mutationCreateAccidentReportResolver"
+   }
+  },
+  "MutationupdateAccidentReportinit0FunctionMutationupdateAccidentReportinit0FunctionAppSyncFunctionFDD16A76": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationupdateAccidentReportinit0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/06db846fd14e6fc371f22b12b5545ba8e2dbfeda85d8c8d586c71c282166657b.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationupdateAccidentReportinit0Function/MutationupdateAccidentReportinit0Function.AppSyncFunction"
+   }
+  },
+  "MutationupdateAccidentReportauth0FunctionMutationupdateAccidentReportauth0FunctionAppSyncFunction6367663F": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "AccidentReportDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationupdateAccidentReportauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/1f5fed297da9c32ae3af922bf3a38ccf23b956078887d16891ec06c20c64722c.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/89f92efd98b1034df0e2497fe31a97de6975de554b8a22e0677d05d6efcafa59.vtl"
+    }
+   },
+   "DependsOn": [
+    "AccidentReportDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationupdateAccidentReportauth0Function/MutationupdateAccidentReportauth0Function.AppSyncFunction"
+   }
+  },
+  "MutationupdateAccidentReportpostAuth0FunctionMutationupdateAccidentReportpostAuth0FunctionAppSyncFunctionFC4C3F46": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationupdateAccidentReportpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationupdateAccidentReportpostAuth0Function/MutationupdateAccidentReportpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "MutationUpdateAccidentReportDataResolverFnMutationUpdateAccidentReportDataResolverFnAppSyncFunctionADDB292C": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "AccidentReportDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationUpdateAccidentReportDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/474bf0776ec2164a13191d1a0a9e057154931e4918fea5086f49850d02a5371b.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/f4a52b72209a9dfa197b5e7367a5c378c5bb86de6e29ddd9e48b49a3fe54b249.vtl"
+    }
+   },
+   "DependsOn": [
+    "AccidentReportDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationUpdateAccidentReportDataResolverFn/MutationUpdateAccidentReportDataResolverFn.AppSyncFunction"
+   }
+  },
+  "UpdateAccidentReportResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "FieldName": "updateAccidentReport",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "MutationupdateAccidentReportinit0FunctionMutationupdateAccidentReportinit0FunctionAppSyncFunctionFDD16A76",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationupdateAccidentReportauth0FunctionMutationupdateAccidentReportauth0FunctionAppSyncFunction6367663F",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationupdateAccidentReportpostAuth0FunctionMutationupdateAccidentReportpostAuth0FunctionAppSyncFunctionFC4C3F46",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationUpdateAccidentReportDataResolverFnMutationUpdateAccidentReportDataResolverFnAppSyncFunctionADDB292C",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Mutation\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"updateAccidentReport\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"AMAZON_DYNAMODB\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n$util.qr($ctx.stash.put(\"tableName\", \"",
+       {
+        "Fn::Select": [
+         1,
+         {
+          "Fn::Split": [
+           "/",
+           {
+            "Fn::Select": [
+             5,
+             {
+              "Fn::Split": [
+               ":",
+               {
+                "Fn::GetAtt": [
+                 "AccidentReportTable",
+                 "TableArn"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Mutation"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/mutationUpdateAccidentReportResolver"
+   }
+  },
+  "MutationdeleteAccidentReportauth0FunctionMutationdeleteAccidentReportauth0FunctionAppSyncFunction75F220E6": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "AccidentReportDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationdeleteAccidentReportauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/1f5fed297da9c32ae3af922bf3a38ccf23b956078887d16891ec06c20c64722c.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e3416b4d47414f29c21e59a70e83bddb959ef0625854ed7fb0ca376573e99069.vtl"
+    }
+   },
+   "DependsOn": [
+    "AccidentReportDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationdeleteAccidentReportauth0Function/MutationdeleteAccidentReportauth0Function.AppSyncFunction"
+   }
+  },
+  "MutationdeleteAccidentReportpostAuth0FunctionMutationdeleteAccidentReportpostAuth0FunctionAppSyncFunctionF5C2F0C2": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationdeleteAccidentReportpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationdeleteAccidentReportpostAuth0Function/MutationdeleteAccidentReportpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "MutationDeleteAccidentReportDataResolverFnMutationDeleteAccidentReportDataResolverFnAppSyncFunctionE374C43E": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Fn::GetAtt": [
+      "AccidentReportDataSource",
+      "Name"
+     ]
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "MutationDeleteAccidentReportDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/4f7907d1209a2c9953a0c053df402c634e359546d70c7cc5c2e8e21ea734880f.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/f4a52b72209a9dfa197b5e7367a5c378c5bb86de6e29ddd9e48b49a3fe54b249.vtl"
+    }
+   },
+   "DependsOn": [
+    "AccidentReportDataSource"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationDeleteAccidentReportDataResolverFn/MutationDeleteAccidentReportDataResolverFn.AppSyncFunction"
+   }
+  },
+  "DeleteAccidentReportResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "FieldName": "deleteAccidentReport",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "MutationdeleteAccidentReportauth0FunctionMutationdeleteAccidentReportauth0FunctionAppSyncFunction75F220E6",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationdeleteAccidentReportpostAuth0FunctionMutationdeleteAccidentReportpostAuth0FunctionAppSyncFunctionF5C2F0C2",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "MutationDeleteAccidentReportDataResolverFnMutationDeleteAccidentReportDataResolverFnAppSyncFunctionE374C43E",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Mutation\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"deleteAccidentReport\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"AMAZON_DYNAMODB\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n$util.qr($ctx.stash.put(\"tableName\", \"",
+       {
+        "Fn::Select": [
+         1,
+         {
+          "Fn::Split": [
+           "/",
+           {
+            "Fn::Select": [
+             5,
+             {
+              "Fn::Split": [
+               ":",
+               {
+                "Fn::GetAtt": [
+                 "AccidentReportTable",
+                 "TableArn"
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Mutation"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/mutationDeleteAccidentReportResolver"
+   }
+  },
+  "SubscriptiononCreateAccidentReportauth0FunctionSubscriptiononCreateAccidentReportauth0FunctionAppSyncFunction6A838E49": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononCreateAccidentReportauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e6da5a6e993df8b5fdc91086b71eb53e72a3a97c98836ef9c9257776f36c452b.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononCreateAccidentReportauth0Function/SubscriptiononCreateAccidentReportauth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptiononCreateAccidentReportpostAuth0FunctionSubscriptiononCreateAccidentReportpostAuth0FunctionAppSyncFunctionD0748821": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononCreateAccidentReportpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononCreateAccidentReportpostAuth0Function/SubscriptiononCreateAccidentReportpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptionOnCreateAccidentReportDataResolverFnSubscriptionOnCreateAccidentReportDataResolverFnAppSyncFunction4C2E1166": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptionOnCreateAccidentReportDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/fe3c43ada4b9d681a5e2312663ef7a73386424d73b73e51f8e2e9d4b50f7c502.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc.vtl"
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptionOnCreateAccidentReportDataResolverFn/SubscriptionOnCreateAccidentReportDataResolverFn.AppSyncFunction"
+   }
+  },
+  "SubscriptiononCreateAccidentReportResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "FieldName": "onCreateAccidentReport",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononCreateAccidentReportauth0FunctionSubscriptiononCreateAccidentReportauth0FunctionAppSyncFunction6A838E49",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononCreateAccidentReportpostAuth0FunctionSubscriptiononCreateAccidentReportpostAuth0FunctionAppSyncFunctionD0748821",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptionOnCreateAccidentReportDataResolverFnSubscriptionOnCreateAccidentReportDataResolverFnAppSyncFunction4C2E1166",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Subscription\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"onCreateAccidentReport\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"NONE\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Subscription"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/subscriptionOnCreateAccidentReportResolver"
+   }
+  },
+  "SubscriptiononUpdateAccidentReportauth0FunctionSubscriptiononUpdateAccidentReportauth0FunctionAppSyncFunctionA61E7036": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononUpdateAccidentReportauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e6da5a6e993df8b5fdc91086b71eb53e72a3a97c98836ef9c9257776f36c452b.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononUpdateAccidentReportauth0Function/SubscriptiononUpdateAccidentReportauth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptiononUpdateAccidentReportpostAuth0FunctionSubscriptiononUpdateAccidentReportpostAuth0FunctionAppSyncFunctionFFF3064F": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononUpdateAccidentReportpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononUpdateAccidentReportpostAuth0Function/SubscriptiononUpdateAccidentReportpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptionOnUpdateAccidentReportDataResolverFnSubscriptionOnUpdateAccidentReportDataResolverFnAppSyncFunctionC1A9FFA3": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptionOnUpdateAccidentReportDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/fe3c43ada4b9d681a5e2312663ef7a73386424d73b73e51f8e2e9d4b50f7c502.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc.vtl"
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptionOnUpdateAccidentReportDataResolverFn/SubscriptionOnUpdateAccidentReportDataResolverFn.AppSyncFunction"
+   }
+  },
+  "SubscriptiononUpdateAccidentReportResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "FieldName": "onUpdateAccidentReport",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononUpdateAccidentReportauth0FunctionSubscriptiononUpdateAccidentReportauth0FunctionAppSyncFunctionA61E7036",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononUpdateAccidentReportpostAuth0FunctionSubscriptiononUpdateAccidentReportpostAuth0FunctionAppSyncFunctionFFF3064F",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptionOnUpdateAccidentReportDataResolverFnSubscriptionOnUpdateAccidentReportDataResolverFnAppSyncFunctionC1A9FFA3",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Subscription\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"onUpdateAccidentReport\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"NONE\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Subscription"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/subscriptionOnUpdateAccidentReportResolver"
+   }
+  },
+  "SubscriptiononDeleteAccidentReportauth0FunctionSubscriptiononDeleteAccidentReportauth0FunctionAppSyncFunctionB33F35DF": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononDeleteAccidentReportauth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e6da5a6e993df8b5fdc91086b71eb53e72a3a97c98836ef9c9257776f36c452b.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononDeleteAccidentReportauth0Function/SubscriptiononDeleteAccidentReportauth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptiononDeleteAccidentReportpostAuth0FunctionSubscriptiononDeleteAccidentReportpostAuth0FunctionAppSyncFunctionE2950285": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptiononDeleteAccidentReportpostAuth0Function",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/c1721bcd774e27c514d3454b5be4f9bdd094c0161b57ddf053d618e3b0086a77.vtl"
+    },
+    "ResponseMappingTemplate": "$util.toJson({})"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononDeleteAccidentReportpostAuth0Function/SubscriptiononDeleteAccidentReportpostAuth0Function.AppSyncFunction"
+   }
+  },
+  "SubscriptionOnDeleteAccidentReportDataResolverFnSubscriptionOnDeleteAccidentReportDataResolverFnAppSyncFunction27A9C5D6": {
+   "Type": "AWS::AppSync::FunctionConfiguration",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "DataSourceName": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    },
+    "FunctionVersion": "2018-05-29",
+    "Name": "SubscriptionOnDeleteAccidentReportDataResolverFn",
+    "RequestMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/fe3c43ada4b9d681a5e2312663ef7a73386424d73b73e51f8e2e9d4b50f7c502.vtl"
+    },
+    "ResponseMappingTemplateS3Location": {
+     "Fn::Sub": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/e0cff47fb007f0bbf2a4e43ca256d6aa7ec109821769fd79fa7c5e83f0e7f9fc.vtl"
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptionOnDeleteAccidentReportDataResolverFn/SubscriptionOnDeleteAccidentReportDataResolverFn.AppSyncFunction"
+   }
+  },
+  "SubscriptiononDeleteAccidentReportResolver": {
+   "Type": "AWS::AppSync::Resolver",
+   "Properties": {
+    "ApiId": {
+     "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    },
+    "FieldName": "onDeleteAccidentReport",
+    "Kind": "PIPELINE",
+    "PipelineConfig": {
+     "Functions": [
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononDeleteAccidentReportauth0FunctionSubscriptiononDeleteAccidentReportauth0FunctionAppSyncFunctionB33F35DF",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptiononDeleteAccidentReportpostAuth0FunctionSubscriptiononDeleteAccidentReportpostAuth0FunctionAppSyncFunctionE2950285",
+        "FunctionId"
+       ]
+      },
+      {
+       "Fn::GetAtt": [
+        "SubscriptionOnDeleteAccidentReportDataResolverFnSubscriptionOnDeleteAccidentReportDataResolverFnAppSyncFunction27A9C5D6",
+        "FunctionId"
+       ]
+      }
+     ]
+    },
+    "RequestMappingTemplate": {
+     "Fn::Join": [
+      "",
+      [
+       "$util.qr($ctx.stash.put(\"typeName\", \"Subscription\"))\n$util.qr($ctx.stash.put(\"fieldName\", \"onDeleteAccidentReport\"))\n$util.qr($ctx.stash.put(\"conditions\", []))\n$util.qr($ctx.stash.put(\"metadata\", {}))\n$util.qr($ctx.stash.metadata.put(\"dataSourceType\", \"NONE\"))\n$util.qr($ctx.stash.metadata.put(\"apiId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"connectionAttributes\", {}))\n\n$util.qr($ctx.stash.put(\"authRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"unauthRole\", \"arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":sts::",
+       {
+        "Ref": "AWS::AccountId"
+       },
+       ":assumed-role/",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+       },
+       "/CognitoIdentityCredentials\"))\n$util.qr($ctx.stash.put(\"identityPoolId\", \"",
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+       },
+       "\"))\n$util.qr($ctx.stash.put(\"adminRoles\", []))\n$util.toJson({})"
+      ]
+     ]
+    },
+    "ResponseMappingTemplate": "$util.toJson($ctx.prev.result)",
+    "TypeName": "Subscription"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/subscriptionOnDeleteAccidentReportResolver"
+   }
+  },
+  "CDKMetadata": {
+   "Type": "AWS::CDK::Metadata",
+   "Properties": {
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/1WOwW6DMAyGn6X31OtoD7uuoB63CXavTGJQCjgodlpViHefoFOnnX5/8if7zyA7HGC3wZtsreu2va9h+iBRcpWi7Uze8BdGHEgpLpAHdl59YFOShBQtmTyJhuEPG37OeJPz5O6MQ3A1fGPd0xGFjMcBpjL0Dzv0NBscR7mzhalY9aIuULF6nvxPp8R2KZEHbnybIq6Nfj/3V4qzkf0ZRUgF3pcwsodjsh3pUmBe3M+kY1KzrivF1nM7Gw6O4CIv1yyD1zfYbS7i/TYmVj8QlI/8AVayTVs2AQAA"
+   },
+   "Metadata": {
+    "aws:cdk:path": "amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/CDKMetadata/Default"
+   },
+   "Condition": "CDKMetadataAvailable"
+  }
+ },
+ "Outputs": {
+  "GetAttAccidentReportTableStreamArn": {
+   "Description": "Your DynamoDB table StreamArn.",
+   "Value": {
+    "Fn::GetAtt": [
+     "AccidentReportTable",
+     "TableStreamArn"
+    ]
+   },
+   "Export": {
+    "Name": {
+     "Fn::Join": [
+      ":",
+      [
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "GetAtt:AccidentReportTable:StreamArn"
+      ]
+     ]
+    }
+   }
+  },
+  "GetAttAccidentReportTableName": {
+   "Description": "Your DynamoDB table name.",
+   "Value": {
+    "Fn::Join": [
+     "",
+     [
+      "AccidentReport-",
+      {
+       "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+      },
+      "-NONE"
+     ]
+    ]
+   },
+   "Export": {
+    "Name": {
+     "Fn::Join": [
+      ":",
+      [
+       {
+        "Ref": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+       },
+       "GetAtt:AccidentReportTable:Name"
+      ]
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "features": "Features",
+    "how_it_works": "How it Works",
+    "impact": "Impact",
+    "sign_in": "Sign In",
+    "get_started": "Get Started →",
+    "dashboard": "Dashboard",
+    "report_issue": "Report Issue",
+    "issues_map": "Issues & Map",
+    "admin": "Admin",
+    "sign_out": "Sign Out"
+  },
+  "landing": {
+    "hero_badge": "Live across 47 cities · 2.4M citizens connected",
+    "hero_title_1": "The City That",
+    "hero_title_2": "Listens & Acts",
+    "hero_sub": "SmartCity connects citizens, AI, and city officials to resolve urban issues faster than ever — powered by real-time data, blockchain transparency, and community intelligence.",
+    "start_free": "🚀 Start for Free",
+    "explore_map": "🗺️ Explore Map",
+    "impact_title": "Impact",
+    "features_title": "Everything a Smart City Needs",
+    "features_sub": "From AI-powered issue detection to blockchain audit trails — every tool your city needs, in one platform.",
+    "process_title": "How SmartCity Works",
+    "process_sub": "From problem to resolution in four simple steps.",
+    "banner_title": "Build a Smarter City Together",
+    "banner_sub": "Every report you submit makes your city better for everyone."
+  },
+  "login": {
+    "welcome_back": "Welcome back",
+    "sign_in_sub": "Sign in to your city dashboard",
+    "email_label": "Email address",
+    "password_label": "Password",
+    "forgot_password": "Forgot password?",
+    "sign_in_btn": "Sign In →",
+    "phone_label": "Phone Number",
+    "send_otp": "Send OTP →",
+    "verify_otp": "Verify & Sign In →",
+    "change_phone": "Change Phone Number",
+    "continue_google": "Continue with Google",
+    "no_account": "No account?",
+    "create_one": "Create one →",
+    "system_status": "System operational · Firebase secured"
+  },
+  "register": {
+    "create_account": "Create Account",
+    "join_platform": "Join the SmartCity platform",
+    "full_name": "Full Name",
+    "email": "Email",
+    "password": "Password",
+    "role": "Role",
+    "role_citizen": "👤 Citizen",
+    "role_official": "🏛️ City Official",
+    "role_admin": "⚙️ Admin",
+    "create_btn": "Create Account →",
+    "continue_google": "Continue with Google",
+    "has_account": "Already have an account?",
+    "sign_in": "Sign in →"
+  },
+  "dashboard": {
+    "greeting_morning": "Good morning",
+    "greeting_afternoon": "Good afternoon",
+    "greeting_evening": "Good evening",
+    "total_issues": "Total Issues",
+    "open_cases": "Open Cases",
+    "critical_alerts": "Critical Alerts",
+    "resolved_24h": "Resolved (24h)",
+    "recent_activity": "Recent Activity",
+    "priority_score": "pts",
+    "view_all": "View All",
+    "map_view": "Map View"
+  }
+}

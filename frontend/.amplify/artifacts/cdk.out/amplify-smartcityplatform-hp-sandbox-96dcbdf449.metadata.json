@@ -1,0 +1,4297 @@
+{
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449": [
+    {
+      "type": "aws:cdk:stack-tags",
+      "data": [
+        {
+          "key": "amplify:deployment-type",
+          "value": "sandbox"
+        },
+        {
+          "key": "created-by",
+          "value": "amplify"
+        }
+      ]
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/deploymentType": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "deploymentType"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/region": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "region"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/userPoolId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "userPoolId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/webClientId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "webClientId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/identityPoolId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "identityPoolId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/authRegion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "authRegion"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/allowUnauthenticatedIdentities": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "allowUnauthenticatedIdentities"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/signupAttributes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "signupAttributes"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/usernameAttributes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "usernameAttributes"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/verificationMechanisms": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "verificationMechanisms"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/passwordPolicyMinLength": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "passwordPolicyMinLength"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/passwordPolicyRequirements": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "passwordPolicyRequirements"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/mfaConfiguration": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "mfaConfiguration"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/mfaTypes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "mfaTypes"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/passwordlessOptions": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "passwordlessOptions"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/socialProviders": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "socialProviders"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/oauthCognitoDomain": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthCognitoDomain"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/oauthScope": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthScope"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/oauthRedirectSignIn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthRedirectSignIn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/oauthRedirectSignOut": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthRedirectSignOut"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/oauthResponseType": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthResponseType"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/oauthClientId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "oauthClientId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/groups": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "groups"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/awsAppsyncApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncApiId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/awsAppsyncApiEndpoint": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncApiEndpoint"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/awsAppsyncAuthenticationType": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncAuthenticationType"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/awsAppsyncRegion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncRegion"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/amplifyApiModelSchemaS3Uri": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyApiModelSchemaS3Uri"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/awsAppsyncApiKey": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncApiKey"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/awsAppsyncAdditionalAuthenticationTypes": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "awsAppsyncAdditionalAuthenticationTypes"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthUserPool35CA34F7Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthUserPool35CA34F7Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthUserPoolAppClientF6E0A2EFRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthUserPoolAppClientF6E0A2EFRef"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthUserPoolUserPoolDomain9750D77FRef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthUserPoolUserPoolDomain9750D77FRef"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth.NestedStack/auth.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "auth179371D7"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-singleton",
+      "data": true
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+      "data": 2
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-singleton",
+      "data": true
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+      "data": 2
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthUserPool35CA34F7Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthUserPool35CA34F7Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCGraphQLUrl": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCGraphQLUrl"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiBF96AFC94DestinationBucketArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiBF96AFC94DestinationBucketArn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPIDefaultApiKey701D8C2AApiKey": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPIDefaultApiKey701D8C2AApiKey"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data.NestedStack/data.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "data7552DF31"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/AmplifySecretFetcherResourceProviderLambda/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifySecretFetcherResourceProviderLambda27823B35"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/AmplifySecretFetcherResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifySecretFetcherResource"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifyAuth/IdentityPool": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthIdentityPool3FDE84CC"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifyAuth/IdentityPoolRoleAttachment": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthIdentityPoolRoleAttachment045F17C8"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBC5D8AB21"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/modelIntrospectionSchemaBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketF566B665"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/AMPLIFY_DATA_GRAPHQL_ENDPOINTParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATAGRAPHQLENDPOINTParameter1C2CBB16"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_BUCKET_NAMEParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMABUCKETNAMEParameter47BF4F44"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/AMPLIFY_DATA_MODEL_INTROSPECTION_SCHEMA_KEYParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATAMODELINTROSPECTIONSCHEMAKEYParameterB6AEAE8A"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/AMPLIFY_DATA_DEFAULT_NAMEParameter/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AMPLIFYDATADEFAULTNAMEParameterE7C23CC4"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/AmplifySecretFetcherResourceProviderLambda/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifySecretFetcherResourceProviderLambdaServiceRole3F02FB0D"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/AmplifySecretFetcherResourceProvider/framework-onEvent/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifySecretFetcherResourceProviderframeworkonEventA62AE3A8"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifyAuth/UserPool/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthUserPool4BA7F805"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifyAuth/GoogleIdP/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthGoogleIdPA9736819"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifyAuth/UserPoolAppClient/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthUserPoolAppClient2626C6F8"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifyAuth/authenticatedUserRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthauthenticatedUserRoleD8DA3689"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifyAuth/unauthenticatedUserRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthunauthenticatedUserRole2B524D9E"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/GraphQLAPI/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataGraphQLAPI42A6FA33"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/GraphQLAPI/TransformerSchema": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/GraphQLAPI/DefaultApiKey": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataGraphQLAPIDefaultApiKey1C8ED374"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/GraphQLAPI/NONE_DS": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "NONE_DS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent876E1DF7Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent876E1DF7Arn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager.NestedStack/AmplifyTableManager.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/HasEnvironmentParameter": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "HasEnvironmentParameter"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/ShouldUsePayPerRequestBilling": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePayPerRequestBilling"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/ShouldUsePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/UserTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "User"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/CustomTableUserTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "User"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/GetAttUserTableStreamArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttUserTableStreamArn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/GetAttUserTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttUserTableName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/UserIAMRole": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "UserIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/UserDataSource": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "UserTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/queryGetUserResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetUserResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.getUser"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/queryListUsersResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ListUserResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.listUsers"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/mutationCreateUserResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreateUserResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.createUser"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/mutationUpdateUserResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateUserResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.updateUser"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/mutationDeleteUserResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeleteUserResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.deleteUser"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/subscriptionOnCreateUserResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateUserResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onCreateUser"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/subscriptionOnUpdateUserResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateUserResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onUpdateUser"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/subscriptionOnDeleteUserResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteUserResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onDeleteUser"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputs.amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent876E1DF7Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputsamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManageC95D1E77"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User.NestedStack/User.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataUserNestedStackUserNestedStackResource9488907F"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/HasEnvironmentParameter": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "HasEnvironmentParameter"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/ShouldUsePayPerRequestBilling": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePayPerRequestBilling"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/ShouldUsePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/AccidentReportTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "AccidentReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/CustomTableAccidentReportTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "AccidentReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/GetAttAccidentReportTableStreamArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttAccidentReportTableStreamArn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/GetAttAccidentReportTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttAccidentReportTableName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/AccidentReportIAMRole": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "AccidentReportIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/AccidentReportDataSource": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "AccidentReportTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/queryGetAccidentReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAccidentReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.getAccidentReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/queryListAccidentReportsResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ListAccidentReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.listAccidentReports"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/mutationCreateAccidentReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreateAccidentReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.createAccidentReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/mutationUpdateAccidentReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateAccidentReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.updateAccidentReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/mutationDeleteAccidentReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeleteAccidentReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.deleteAccidentReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/subscriptionOnCreateAccidentReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateAccidentReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onCreateAccidentReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/subscriptionOnUpdateAccidentReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateAccidentReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onUpdateAccidentReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/subscriptionOnDeleteAccidentReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteAccidentReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onDeleteAccidentReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputs.amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent876E1DF7Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputsamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManageC95D1E77"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport.NestedStack/AccidentReport.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAccidentReportNestedStackAccidentReportNestedStackResource2BE57386"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/HasEnvironmentParameter": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "HasEnvironmentParameter"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/ShouldUsePayPerRequestBilling": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePayPerRequestBilling"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/ShouldUsePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/CrimeReportTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CrimeReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/CustomTableCrimeReportTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CrimeReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/GetAttCrimeReportTableStreamArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttCrimeReportTableStreamArn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/GetAttCrimeReportTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttCrimeReportTableName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/CrimeReportIAMRole": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CrimeReportIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/CrimeReportDataSource": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CrimeReportTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/queryGetCrimeReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetCrimeReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.getCrimeReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/queryListCrimeReportsResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ListCrimeReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.listCrimeReports"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/mutationCreateCrimeReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreateCrimeReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.createCrimeReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/mutationUpdateCrimeReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateCrimeReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.updateCrimeReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/mutationDeleteCrimeReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeleteCrimeReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.deleteCrimeReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/subscriptionOnCreateCrimeReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateCrimeReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onCreateCrimeReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/subscriptionOnUpdateCrimeReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateCrimeReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onUpdateCrimeReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/subscriptionOnDeleteCrimeReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteCrimeReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onDeleteCrimeReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputs.amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent876E1DF7Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputsamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManageC95D1E77"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport.NestedStack/CrimeReport.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataCrimeReportNestedStackCrimeReportNestedStackResourceDC375C42"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/HasEnvironmentParameter": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "HasEnvironmentParameter"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/ShouldUsePayPerRequestBilling": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePayPerRequestBilling"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/ShouldUsePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/WasteReportTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "WasteReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/CustomTableWasteReportTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "WasteReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/GetAttWasteReportTableStreamArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttWasteReportTableStreamArn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/GetAttWasteReportTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttWasteReportTableName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/WasteReportIAMRole": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "WasteReportIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/WasteReportDataSource": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "WasteReportTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/queryGetWasteReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetWasteReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.getWasteReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/queryListWasteReportsResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ListWasteReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.listWasteReports"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/mutationCreateWasteReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreateWasteReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.createWasteReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/mutationUpdateWasteReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateWasteReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.updateWasteReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/mutationDeleteWasteReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeleteWasteReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.deleteWasteReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/subscriptionOnCreateWasteReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateWasteReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onCreateWasteReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/subscriptionOnUpdateWasteReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateWasteReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onUpdateWasteReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/subscriptionOnDeleteWasteReportResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteWasteReportResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onDeleteWasteReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputs.amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent876E1DF7Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputsamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManageC95D1E77"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport.NestedStack/WasteReport.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataWasteReportNestedStackWasteReportNestedStackResource969C1619"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/HasEnvironmentParameter": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "HasEnvironmentParameter"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/ShouldUsePayPerRequestBilling": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePayPerRequestBilling"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/ShouldUsePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MessageTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Message"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/CustomTableMessageTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Message"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/GetAttMessageTableStreamArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttMessageTableStreamArn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/GetAttMessageTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttMessageTableName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MessageIAMRole": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MessageIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MessageDataSource": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MessageTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/queryGetMessageResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetMessageResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.getMessage"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/queryListMessagesResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ListMessageResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.listMessages"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/mutationCreateMessageResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreateMessageResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.createMessage"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/mutationUpdateMessageResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateMessageResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.updateMessage"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/mutationDeleteMessageResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeleteMessageResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.deleteMessage"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/subscriptionOnCreateMessageResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateMessageResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onCreateMessage"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/subscriptionOnUpdateMessageResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateMessageResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onUpdateMessage"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/subscriptionOnDeleteMessageResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteMessageResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onDeleteMessage"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputs.amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent876E1DF7Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputsamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManageC95D1E77"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message.NestedStack/Message.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataMessageNestedStackMessageNestedStackResource9C4293E6"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/HasEnvironmentParameter": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "HasEnvironmentParameter"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/ShouldUsePayPerRequestBilling": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePayPerRequestBilling"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/ShouldUsePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/FoodDonationTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "FoodDonation"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/CustomTableFoodDonationTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "FoodDonation"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/GetAttFoodDonationTableStreamArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttFoodDonationTableStreamArn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/GetAttFoodDonationTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttFoodDonationTableName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/FoodDonationIAMRole": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "FoodDonationIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/FoodDonationDataSource": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "FoodDonationTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/queryGetFoodDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetFoodDonationResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.getFoodDonation"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/queryListFoodDonationsResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ListFoodDonationResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.listFoodDonations"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/mutationCreateFoodDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreateFoodDonationResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.createFoodDonation"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/mutationUpdateFoodDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateFoodDonationResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.updateFoodDonation"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/mutationDeleteFoodDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeleteFoodDonationResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.deleteFoodDonation"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/subscriptionOnCreateFoodDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateFoodDonationResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onCreateFoodDonation"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/subscriptionOnUpdateFoodDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateFoodDonationResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onUpdateFoodDonation"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/subscriptionOnDeleteFoodDonationResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteFoodDonationResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onDeleteFoodDonation"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputs.amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent876E1DF7Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputsamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManageC95D1E77"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation.NestedStack/FoodDonation.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataFoodDonationNestedStackFoodDonationNestedStackResourceED1529D3"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/DynamoDBModelTableReadIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableReadIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/DynamoDBModelTableWriteIOPS": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBModelTableWriteIOPS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/DynamoDBBillingMode": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBBillingMode"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/DynamoDBEnablePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnablePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/DynamoDBEnableServerSideEncryption": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DynamoDBEnableServerSideEncryption"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/HasEnvironmentParameter": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "HasEnvironmentParameter"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/ShouldUsePayPerRequestBilling": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePayPerRequestBilling"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/ShouldUsePointInTimeRecovery": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ShouldUsePointInTimeRecovery"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/TrustScoreTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TrustScore"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/CustomTableTrustScoreTable": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TrustScore"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/GetAttTrustScoreTableStreamArn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttTrustScoreTableStreamArn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/GetAttTrustScoreTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetAttTrustScoreTableName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/TrustScoreIAMRole": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TrustScoreIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/TrustScoreDataSource": [
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TrustScoreTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/queryGetTrustScoreResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GetTrustScoreResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.getTrustScore"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/queryListTrustScoresResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ListTrustScoreResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Query.listTrustScores"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/mutationCreateTrustScoreResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CreateTrustScoreResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.createTrustScore"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/mutationUpdateTrustScoreResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdateTrustScoreResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.updateTrustScore"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/mutationDeleteTrustScoreResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeleteTrustScoreResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Mutation.deleteTrustScore"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/subscriptionOnCreateTrustScoreResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateTrustScoreResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onCreateTrustScore"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/subscriptionOnUpdateTrustScoreResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateTrustScoreResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onUpdateTrustScore"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/subscriptionOnDeleteTrustScoreResolver": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteTrustScoreResolver"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Subscription.onDeleteTrustScore"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputs.amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent876E1DF7Arn": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource2B722888Outputsamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataAmplifyTableManagerTableManageC95D1E77"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPI6ADC09BCApiId"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449dataamplifyDataGraphQLAPINONEDS0652BD5FName"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthauthenticatedUserRole003DE9F1Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthunauthenticatedUserRole5C4F7FFERef"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/reference-to-amplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputs.amplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "referencetoamplifysmartcityplatformhpsandbox96dcbdf449authNestedStackauthNestedStackResource124799EBOutputsamplifysmartcityplatformhpsandbox96dcbdf449authamplifyAuthIdentityPoolF22CB4C9Ref"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore.NestedStack/TrustScore.NestedStackResource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataTrustScoreNestedStackTrustScoreNestedStackResource7061316D"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleA41FC8C2"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/modelIntrospectionSchemaBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketPolicy4DAB0D15"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/modelIntrospectionSchemaBucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketAutoDeleteObjectsCustomResourceFE57309F"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/modelIntrospectionSchemaBucketDeployment/AwsCliLayer/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketDeploymentAwsCliLayer13C432F7"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/modelIntrospectionSchemaBucketDeployment/CustomResource-1536MiB/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "modelIntrospectionSchemaBucketDeploymentCustomResource1536MiB104B97EC"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/AmplifySecretFetcherResourceProviderLambda/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifySecretFetcherResourceProviderLambdaServiceRoleDefaultPolicy080657DD"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/AmplifySecretFetcherResourceProvider/framework-onEvent/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifySecretFetcherResourceProviderframeworkonEventServiceRole0941C6B4"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifyAuth/UserPool/UserPoolDomain/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthUserPoolUserPoolDomain1F688B5B"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/amplifyAuth/UserPool/CognitoDomain/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyAuthUserPoolCognitoDomain00705334"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/GraphQLAPI/NONE_DS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataGraphQLAPINONEDS684BF699"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "NONE_DS"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/AmplifyManagedTableIsCompleteRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyManagedTableIsCompleteRoleF825222C"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyManagedTableOnEventRoleB4E71DEA"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyTableWaiterStateMachine060600BC"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/UserIAMRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UserIAMRole93CEE926"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "UserIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/UserDataSource/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UserDataSource"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "UserTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/QuerygetUserauth0Function/QuerygetUserauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetUserauth0FunctionQuerygetUserauth0FunctionAppSyncFunction9E6250B0"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetUserauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/QuerygetUserpostAuth0Function/QuerygetUserpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetUserpostAuth0FunctionQuerygetUserpostAuth0FunctionAppSyncFunction2792AC60"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetUserpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/QueryGetUserDataResolverFn/QueryGetUserDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryGetUserDataResolverFnQueryGetUserDataResolverFnAppSyncFunction36A3E4CF"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryGetUserDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/QuerylistUsersauth0Function/QuerylistUsersauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistUsersauth0FunctionQuerylistUsersauth0FunctionAppSyncFunctionA1FF61AB"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistUsersauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/QuerylistUserspostAuth0Function/QuerylistUserspostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistUserspostAuth0FunctionQuerylistUserspostAuth0FunctionAppSyncFunction37C5583D"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistUserspostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/QueryListUsersDataResolverFn/QueryListUsersDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryListUsersDataResolverFnQueryListUsersDataResolverFnAppSyncFunction83574EBA"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryListUsersDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/MutationcreateUserinit0Function/MutationcreateUserinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateUserinit0FunctionMutationcreateUserinit0FunctionAppSyncFunctionEDF87EC6"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateUserinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/MutationcreateUserauth0Function/MutationcreateUserauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateUserauth0FunctionMutationcreateUserauth0FunctionAppSyncFunction30556A6C"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateUserauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/MutationcreateUserpostAuth0Function/MutationcreateUserpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateUserpostAuth0FunctionMutationcreateUserpostAuth0FunctionAppSyncFunction176E20CB"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateUserpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/MutationCreateUserDataResolverFn/MutationCreateUserDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationCreateUserDataResolverFnMutationCreateUserDataResolverFnAppSyncFunction22E7974E"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationCreateUserDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/MutationupdateUserinit0Function/MutationupdateUserinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateUserinit0FunctionMutationupdateUserinit0FunctionAppSyncFunctionC2E8A924"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateUserinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/MutationupdateUserauth0Function/MutationupdateUserauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateUserauth0FunctionMutationupdateUserauth0FunctionAppSyncFunctionDF95DA65"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateUserauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/MutationupdateUserpostAuth0Function/MutationupdateUserpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateUserpostAuth0FunctionMutationupdateUserpostAuth0FunctionAppSyncFunctionD4B80000"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateUserpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/MutationUpdateUserDataResolverFn/MutationUpdateUserDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationUpdateUserDataResolverFnMutationUpdateUserDataResolverFnAppSyncFunction6ADF3910"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationUpdateUserDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/MutationdeleteUserauth0Function/MutationdeleteUserauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteUserauth0FunctionMutationdeleteUserauth0FunctionAppSyncFunction9B900ACD"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteUserauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/MutationdeleteUserpostAuth0Function/MutationdeleteUserpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteUserpostAuth0FunctionMutationdeleteUserpostAuth0FunctionAppSyncFunction9B804910"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteUserpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/MutationDeleteUserDataResolverFn/MutationDeleteUserDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationDeleteUserDataResolverFnMutationDeleteUserDataResolverFnAppSyncFunction0B4F366A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationDeleteUserDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/SubscriptiononCreateUserauth0Function/SubscriptiononCreateUserauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateUserauth0FunctionSubscriptiononCreateUserauth0FunctionAppSyncFunctionE9B4721A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateUserauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/SubscriptiononCreateUserpostAuth0Function/SubscriptiononCreateUserpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateUserpostAuth0FunctionSubscriptiononCreateUserpostAuth0FunctionAppSyncFunction62AE12DA"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateUserpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/SubscriptionOnCreateUserDataResolverFn/SubscriptionOnCreateUserDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnCreateUserDataResolverFnSubscriptionOnCreateUserDataResolverFnAppSyncFunction23B2F1B9"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnCreateUserDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/SubscriptiononUpdateUserauth0Function/SubscriptiononUpdateUserauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateUserauth0FunctionSubscriptiononUpdateUserauth0FunctionAppSyncFunction78530C9F"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateUserauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/SubscriptiononUpdateUserpostAuth0Function/SubscriptiononUpdateUserpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateUserpostAuth0FunctionSubscriptiononUpdateUserpostAuth0FunctionAppSyncFunctionF3EF85D1"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateUserpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/SubscriptionOnUpdateUserDataResolverFn/SubscriptionOnUpdateUserDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnUpdateUserDataResolverFnSubscriptionOnUpdateUserDataResolverFnAppSyncFunction93FA5DF6"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnUpdateUserDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/SubscriptiononDeleteUserauth0Function/SubscriptiononDeleteUserauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteUserauth0FunctionSubscriptiononDeleteUserauth0FunctionAppSyncFunction0C5B7186"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteUserauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/SubscriptiononDeleteUserpostAuth0Function/SubscriptiononDeleteUserpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteUserpostAuth0FunctionSubscriptiononDeleteUserpostAuth0FunctionAppSyncFunction24A5E815"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteUserpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/SubscriptionOnDeleteUserDataResolverFn/SubscriptionOnDeleteUserDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnDeleteUserDataResolverFnSubscriptionOnDeleteUserDataResolverFnAppSyncFunction2BEB0972"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnDeleteUserDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/AccidentReportIAMRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AccidentReportIAMRole38689128"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "AccidentReportIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/AccidentReportDataSource/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AccidentReportDataSource"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "AccidentReportTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QuerygetAccidentReportauth0Function/QuerygetAccidentReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetAccidentReportauth0FunctionQuerygetAccidentReportauth0FunctionAppSyncFunction137893C2"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetAccidentReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QuerygetAccidentReportpostAuth0Function/QuerygetAccidentReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetAccidentReportpostAuth0FunctionQuerygetAccidentReportpostAuth0FunctionAppSyncFunction77DEA51D"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetAccidentReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QueryGetAccidentReportDataResolverFn/QueryGetAccidentReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryGetAccidentReportDataResolverFnQueryGetAccidentReportDataResolverFnAppSyncFunction5667EB88"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryGetAccidentReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QuerylistAccidentReportsauth0Function/QuerylistAccidentReportsauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistAccidentReportsauth0FunctionQuerylistAccidentReportsauth0FunctionAppSyncFunction4D9B269D"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistAccidentReportsauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QuerylistAccidentReportspostAuth0Function/QuerylistAccidentReportspostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistAccidentReportspostAuth0FunctionQuerylistAccidentReportspostAuth0FunctionAppSyncFunction9A3114CA"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistAccidentReportspostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/QueryListAccidentReportsDataResolverFn/QueryListAccidentReportsDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryListAccidentReportsDataResolverFnQueryListAccidentReportsDataResolverFnAppSyncFunction906733FF"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryListAccidentReportsDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationcreateAccidentReportinit0Function/MutationcreateAccidentReportinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateAccidentReportinit0FunctionMutationcreateAccidentReportinit0FunctionAppSyncFunction40C5B21F"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateAccidentReportinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationcreateAccidentReportauth0Function/MutationcreateAccidentReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateAccidentReportauth0FunctionMutationcreateAccidentReportauth0FunctionAppSyncFunction8D79C664"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateAccidentReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationcreateAccidentReportpostAuth0Function/MutationcreateAccidentReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateAccidentReportpostAuth0FunctionMutationcreateAccidentReportpostAuth0FunctionAppSyncFunction23731220"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateAccidentReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationCreateAccidentReportDataResolverFn/MutationCreateAccidentReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationCreateAccidentReportDataResolverFnMutationCreateAccidentReportDataResolverFnAppSyncFunction184EFFA5"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationCreateAccidentReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationupdateAccidentReportinit0Function/MutationupdateAccidentReportinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateAccidentReportinit0FunctionMutationupdateAccidentReportinit0FunctionAppSyncFunctionFDD16A76"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateAccidentReportinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationupdateAccidentReportauth0Function/MutationupdateAccidentReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateAccidentReportauth0FunctionMutationupdateAccidentReportauth0FunctionAppSyncFunction6367663F"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateAccidentReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationupdateAccidentReportpostAuth0Function/MutationupdateAccidentReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateAccidentReportpostAuth0FunctionMutationupdateAccidentReportpostAuth0FunctionAppSyncFunctionFC4C3F46"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateAccidentReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationUpdateAccidentReportDataResolverFn/MutationUpdateAccidentReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationUpdateAccidentReportDataResolverFnMutationUpdateAccidentReportDataResolverFnAppSyncFunctionADDB292C"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationUpdateAccidentReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationdeleteAccidentReportauth0Function/MutationdeleteAccidentReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteAccidentReportauth0FunctionMutationdeleteAccidentReportauth0FunctionAppSyncFunction75F220E6"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteAccidentReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationdeleteAccidentReportpostAuth0Function/MutationdeleteAccidentReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteAccidentReportpostAuth0FunctionMutationdeleteAccidentReportpostAuth0FunctionAppSyncFunctionF5C2F0C2"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteAccidentReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/MutationDeleteAccidentReportDataResolverFn/MutationDeleteAccidentReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationDeleteAccidentReportDataResolverFnMutationDeleteAccidentReportDataResolverFnAppSyncFunctionE374C43E"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationDeleteAccidentReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononCreateAccidentReportauth0Function/SubscriptiononCreateAccidentReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateAccidentReportauth0FunctionSubscriptiononCreateAccidentReportauth0FunctionAppSyncFunction6A838E49"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateAccidentReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononCreateAccidentReportpostAuth0Function/SubscriptiononCreateAccidentReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateAccidentReportpostAuth0FunctionSubscriptiononCreateAccidentReportpostAuth0FunctionAppSyncFunctionD0748821"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateAccidentReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptionOnCreateAccidentReportDataResolverFn/SubscriptionOnCreateAccidentReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnCreateAccidentReportDataResolverFnSubscriptionOnCreateAccidentReportDataResolverFnAppSyncFunction4C2E1166"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnCreateAccidentReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononUpdateAccidentReportauth0Function/SubscriptiononUpdateAccidentReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateAccidentReportauth0FunctionSubscriptiononUpdateAccidentReportauth0FunctionAppSyncFunctionA61E7036"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateAccidentReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononUpdateAccidentReportpostAuth0Function/SubscriptiononUpdateAccidentReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateAccidentReportpostAuth0FunctionSubscriptiononUpdateAccidentReportpostAuth0FunctionAppSyncFunctionFFF3064F"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateAccidentReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptionOnUpdateAccidentReportDataResolverFn/SubscriptionOnUpdateAccidentReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnUpdateAccidentReportDataResolverFnSubscriptionOnUpdateAccidentReportDataResolverFnAppSyncFunctionC1A9FFA3"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnUpdateAccidentReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononDeleteAccidentReportauth0Function/SubscriptiononDeleteAccidentReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteAccidentReportauth0FunctionSubscriptiononDeleteAccidentReportauth0FunctionAppSyncFunctionB33F35DF"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteAccidentReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptiononDeleteAccidentReportpostAuth0Function/SubscriptiononDeleteAccidentReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteAccidentReportpostAuth0FunctionSubscriptiononDeleteAccidentReportpostAuth0FunctionAppSyncFunctionE2950285"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteAccidentReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/SubscriptionOnDeleteAccidentReportDataResolverFn/SubscriptionOnDeleteAccidentReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnDeleteAccidentReportDataResolverFnSubscriptionOnDeleteAccidentReportDataResolverFnAppSyncFunction27A9C5D6"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnDeleteAccidentReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/CrimeReportIAMRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CrimeReportIAMRoleEEC0235A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CrimeReportIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/CrimeReportDataSource/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CrimeReportDataSource"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CrimeReportTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/QuerygetCrimeReportauth0Function/QuerygetCrimeReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetCrimeReportauth0FunctionQuerygetCrimeReportauth0FunctionAppSyncFunction467A65A1"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetCrimeReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/QuerygetCrimeReportpostAuth0Function/QuerygetCrimeReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetCrimeReportpostAuth0FunctionQuerygetCrimeReportpostAuth0FunctionAppSyncFunction4246FF01"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetCrimeReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/QueryGetCrimeReportDataResolverFn/QueryGetCrimeReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryGetCrimeReportDataResolverFnQueryGetCrimeReportDataResolverFnAppSyncFunction04E27F45"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryGetCrimeReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/QuerylistCrimeReportsauth0Function/QuerylistCrimeReportsauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistCrimeReportsauth0FunctionQuerylistCrimeReportsauth0FunctionAppSyncFunction4CF1D3B9"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistCrimeReportsauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/QuerylistCrimeReportspostAuth0Function/QuerylistCrimeReportspostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistCrimeReportspostAuth0FunctionQuerylistCrimeReportspostAuth0FunctionAppSyncFunctionAB2E7216"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistCrimeReportspostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/QueryListCrimeReportsDataResolverFn/QueryListCrimeReportsDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryListCrimeReportsDataResolverFnQueryListCrimeReportsDataResolverFnAppSyncFunction0D533879"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryListCrimeReportsDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/MutationcreateCrimeReportinit0Function/MutationcreateCrimeReportinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateCrimeReportinit0FunctionMutationcreateCrimeReportinit0FunctionAppSyncFunctionCA0CBFCC"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateCrimeReportinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/MutationcreateCrimeReportauth0Function/MutationcreateCrimeReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateCrimeReportauth0FunctionMutationcreateCrimeReportauth0FunctionAppSyncFunctionB63886F2"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateCrimeReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/MutationcreateCrimeReportpostAuth0Function/MutationcreateCrimeReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateCrimeReportpostAuth0FunctionMutationcreateCrimeReportpostAuth0FunctionAppSyncFunction65B3203A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateCrimeReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/MutationCreateCrimeReportDataResolverFn/MutationCreateCrimeReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationCreateCrimeReportDataResolverFnMutationCreateCrimeReportDataResolverFnAppSyncFunction475257F1"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationCreateCrimeReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/MutationupdateCrimeReportinit0Function/MutationupdateCrimeReportinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateCrimeReportinit0FunctionMutationupdateCrimeReportinit0FunctionAppSyncFunctionE1B323BF"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateCrimeReportinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/MutationupdateCrimeReportauth0Function/MutationupdateCrimeReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateCrimeReportauth0FunctionMutationupdateCrimeReportauth0FunctionAppSyncFunction2FB9ED6D"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateCrimeReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/MutationupdateCrimeReportpostAuth0Function/MutationupdateCrimeReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateCrimeReportpostAuth0FunctionMutationupdateCrimeReportpostAuth0FunctionAppSyncFunction004E16CF"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateCrimeReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/MutationUpdateCrimeReportDataResolverFn/MutationUpdateCrimeReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationUpdateCrimeReportDataResolverFnMutationUpdateCrimeReportDataResolverFnAppSyncFunctionF35E4E9A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationUpdateCrimeReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/MutationdeleteCrimeReportauth0Function/MutationdeleteCrimeReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteCrimeReportauth0FunctionMutationdeleteCrimeReportauth0FunctionAppSyncFunction87E7FE2A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteCrimeReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/MutationdeleteCrimeReportpostAuth0Function/MutationdeleteCrimeReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteCrimeReportpostAuth0FunctionMutationdeleteCrimeReportpostAuth0FunctionAppSyncFunction9070214E"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteCrimeReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/MutationDeleteCrimeReportDataResolverFn/MutationDeleteCrimeReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationDeleteCrimeReportDataResolverFnMutationDeleteCrimeReportDataResolverFnAppSyncFunction887FC396"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationDeleteCrimeReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/SubscriptiononCreateCrimeReportauth0Function/SubscriptiononCreateCrimeReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateCrimeReportauth0FunctionSubscriptiononCreateCrimeReportauth0FunctionAppSyncFunction2EC20580"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateCrimeReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/SubscriptiononCreateCrimeReportpostAuth0Function/SubscriptiononCreateCrimeReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateCrimeReportpostAuth0FunctionSubscriptiononCreateCrimeReportpostAuth0FunctionAppSyncFunction68608A34"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateCrimeReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/SubscriptionOnCreateCrimeReportDataResolverFn/SubscriptionOnCreateCrimeReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnCreateCrimeReportDataResolverFnSubscriptionOnCreateCrimeReportDataResolverFnAppSyncFunctionEEAB9562"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnCreateCrimeReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/SubscriptiononUpdateCrimeReportauth0Function/SubscriptiononUpdateCrimeReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateCrimeReportauth0FunctionSubscriptiononUpdateCrimeReportauth0FunctionAppSyncFunction6C6C0107"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateCrimeReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/SubscriptiononUpdateCrimeReportpostAuth0Function/SubscriptiononUpdateCrimeReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateCrimeReportpostAuth0FunctionSubscriptiononUpdateCrimeReportpostAuth0FunctionAppSyncFunction108D818D"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateCrimeReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/SubscriptionOnUpdateCrimeReportDataResolverFn/SubscriptionOnUpdateCrimeReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnUpdateCrimeReportDataResolverFnSubscriptionOnUpdateCrimeReportDataResolverFnAppSyncFunction9335E524"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnUpdateCrimeReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/SubscriptiononDeleteCrimeReportauth0Function/SubscriptiononDeleteCrimeReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteCrimeReportauth0FunctionSubscriptiononDeleteCrimeReportauth0FunctionAppSyncFunction01E20929"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteCrimeReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/SubscriptiononDeleteCrimeReportpostAuth0Function/SubscriptiononDeleteCrimeReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteCrimeReportpostAuth0FunctionSubscriptiononDeleteCrimeReportpostAuth0FunctionAppSyncFunction6A016DE6"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteCrimeReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/SubscriptionOnDeleteCrimeReportDataResolverFn/SubscriptionOnDeleteCrimeReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnDeleteCrimeReportDataResolverFnSubscriptionOnDeleteCrimeReportDataResolverFnAppSyncFunction7234DF37"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnDeleteCrimeReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/WasteReportIAMRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WasteReportIAMRoleE1C54A28"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "WasteReportIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/WasteReportDataSource/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WasteReportDataSource"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "WasteReportTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/QuerygetWasteReportauth0Function/QuerygetWasteReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetWasteReportauth0FunctionQuerygetWasteReportauth0FunctionAppSyncFunction961EF2A9"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetWasteReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/QuerygetWasteReportpostAuth0Function/QuerygetWasteReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetWasteReportpostAuth0FunctionQuerygetWasteReportpostAuth0FunctionAppSyncFunction0BD33582"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetWasteReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/QueryGetWasteReportDataResolverFn/QueryGetWasteReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryGetWasteReportDataResolverFnQueryGetWasteReportDataResolverFnAppSyncFunction35A2F80A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryGetWasteReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/QuerylistWasteReportsauth0Function/QuerylistWasteReportsauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistWasteReportsauth0FunctionQuerylistWasteReportsauth0FunctionAppSyncFunction370456C3"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistWasteReportsauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/QuerylistWasteReportspostAuth0Function/QuerylistWasteReportspostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistWasteReportspostAuth0FunctionQuerylistWasteReportspostAuth0FunctionAppSyncFunction9A600AC6"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistWasteReportspostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/QueryListWasteReportsDataResolverFn/QueryListWasteReportsDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryListWasteReportsDataResolverFnQueryListWasteReportsDataResolverFnAppSyncFunction231FEA4B"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryListWasteReportsDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/MutationcreateWasteReportinit0Function/MutationcreateWasteReportinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateWasteReportinit0FunctionMutationcreateWasteReportinit0FunctionAppSyncFunction19A25595"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateWasteReportinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/MutationcreateWasteReportauth0Function/MutationcreateWasteReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateWasteReportauth0FunctionMutationcreateWasteReportauth0FunctionAppSyncFunction37D551A0"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateWasteReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/MutationcreateWasteReportpostAuth0Function/MutationcreateWasteReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateWasteReportpostAuth0FunctionMutationcreateWasteReportpostAuth0FunctionAppSyncFunction106A9561"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateWasteReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/MutationCreateWasteReportDataResolverFn/MutationCreateWasteReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationCreateWasteReportDataResolverFnMutationCreateWasteReportDataResolverFnAppSyncFunction177D7A04"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationCreateWasteReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/MutationupdateWasteReportinit0Function/MutationupdateWasteReportinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateWasteReportinit0FunctionMutationupdateWasteReportinit0FunctionAppSyncFunction7260FD51"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateWasteReportinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/MutationupdateWasteReportauth0Function/MutationupdateWasteReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateWasteReportauth0FunctionMutationupdateWasteReportauth0FunctionAppSyncFunction01D46F75"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateWasteReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/MutationupdateWasteReportpostAuth0Function/MutationupdateWasteReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateWasteReportpostAuth0FunctionMutationupdateWasteReportpostAuth0FunctionAppSyncFunction122CEFF7"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateWasteReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/MutationUpdateWasteReportDataResolverFn/MutationUpdateWasteReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationUpdateWasteReportDataResolverFnMutationUpdateWasteReportDataResolverFnAppSyncFunction4023489C"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationUpdateWasteReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/MutationdeleteWasteReportauth0Function/MutationdeleteWasteReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteWasteReportauth0FunctionMutationdeleteWasteReportauth0FunctionAppSyncFunction03B41473"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteWasteReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/MutationdeleteWasteReportpostAuth0Function/MutationdeleteWasteReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteWasteReportpostAuth0FunctionMutationdeleteWasteReportpostAuth0FunctionAppSyncFunction87050C95"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteWasteReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/MutationDeleteWasteReportDataResolverFn/MutationDeleteWasteReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationDeleteWasteReportDataResolverFnMutationDeleteWasteReportDataResolverFnAppSyncFunctionD99A1192"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationDeleteWasteReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/SubscriptiononCreateWasteReportauth0Function/SubscriptiononCreateWasteReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateWasteReportauth0FunctionSubscriptiononCreateWasteReportauth0FunctionAppSyncFunction1F5FD50C"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateWasteReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/SubscriptiononCreateWasteReportpostAuth0Function/SubscriptiononCreateWasteReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateWasteReportpostAuth0FunctionSubscriptiononCreateWasteReportpostAuth0FunctionAppSyncFunction51801A7E"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateWasteReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/SubscriptionOnCreateWasteReportDataResolverFn/SubscriptionOnCreateWasteReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnCreateWasteReportDataResolverFnSubscriptionOnCreateWasteReportDataResolverFnAppSyncFunctionA09D690E"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnCreateWasteReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/SubscriptiononUpdateWasteReportauth0Function/SubscriptiononUpdateWasteReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateWasteReportauth0FunctionSubscriptiononUpdateWasteReportauth0FunctionAppSyncFunction75F796BB"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateWasteReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/SubscriptiononUpdateWasteReportpostAuth0Function/SubscriptiononUpdateWasteReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateWasteReportpostAuth0FunctionSubscriptiononUpdateWasteReportpostAuth0FunctionAppSyncFunction9BF1E3D1"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateWasteReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/SubscriptionOnUpdateWasteReportDataResolverFn/SubscriptionOnUpdateWasteReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnUpdateWasteReportDataResolverFnSubscriptionOnUpdateWasteReportDataResolverFnAppSyncFunctionEA6BC0B6"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnUpdateWasteReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/SubscriptiononDeleteWasteReportauth0Function/SubscriptiononDeleteWasteReportauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteWasteReportauth0FunctionSubscriptiononDeleteWasteReportauth0FunctionAppSyncFunctionFD86D7CF"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteWasteReportauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/SubscriptiononDeleteWasteReportpostAuth0Function/SubscriptiononDeleteWasteReportpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteWasteReportpostAuth0FunctionSubscriptiononDeleteWasteReportpostAuth0FunctionAppSyncFunctionE56F8DAE"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteWasteReportpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/SubscriptionOnDeleteWasteReportDataResolverFn/SubscriptionOnDeleteWasteReportDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnDeleteWasteReportDataResolverFnSubscriptionOnDeleteWasteReportDataResolverFnAppSyncFunction508FC0B3"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnDeleteWasteReportDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MessageIAMRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MessageIAMRole5CD26909"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MessageIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MessageDataSource/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MessageDataSource"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MessageTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/QuerygetMessageauth0Function/QuerygetMessageauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetMessageauth0FunctionQuerygetMessageauth0FunctionAppSyncFunction5CABE43C"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetMessageauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/QuerygetMessagepostAuth0Function/QuerygetMessagepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetMessagepostAuth0FunctionQuerygetMessagepostAuth0FunctionAppSyncFunctionFE5B90E2"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetMessagepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/QueryGetMessageDataResolverFn/QueryGetMessageDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryGetMessageDataResolverFnQueryGetMessageDataResolverFnAppSyncFunctionDD6C5FBA"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryGetMessageDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/QuerylistMessagesauth0Function/QuerylistMessagesauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistMessagesauth0FunctionQuerylistMessagesauth0FunctionAppSyncFunctionED255009"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistMessagesauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/QuerylistMessagespostAuth0Function/QuerylistMessagespostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistMessagespostAuth0FunctionQuerylistMessagespostAuth0FunctionAppSyncFunctionFC79318A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistMessagespostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/QueryListMessagesDataResolverFn/QueryListMessagesDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryListMessagesDataResolverFnQueryListMessagesDataResolverFnAppSyncFunctionA021E6A1"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryListMessagesDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MutationcreateMessageinit0Function/MutationcreateMessageinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateMessageinit0FunctionMutationcreateMessageinit0FunctionAppSyncFunction4315CDA2"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateMessageinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MutationcreateMessageauth0Function/MutationcreateMessageauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateMessageauth0FunctionMutationcreateMessageauth0FunctionAppSyncFunction213074E1"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateMessageauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MutationcreateMessagepostAuth0Function/MutationcreateMessagepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateMessagepostAuth0FunctionMutationcreateMessagepostAuth0FunctionAppSyncFunction6A353EEB"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateMessagepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MutationCreateMessageDataResolverFn/MutationCreateMessageDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationCreateMessageDataResolverFnMutationCreateMessageDataResolverFnAppSyncFunction3074D5BC"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationCreateMessageDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MutationupdateMessageinit0Function/MutationupdateMessageinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateMessageinit0FunctionMutationupdateMessageinit0FunctionAppSyncFunction9AD36191"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateMessageinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MutationupdateMessageauth0Function/MutationupdateMessageauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateMessageauth0FunctionMutationupdateMessageauth0FunctionAppSyncFunction3D009733"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateMessageauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MutationupdateMessagepostAuth0Function/MutationupdateMessagepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateMessagepostAuth0FunctionMutationupdateMessagepostAuth0FunctionAppSyncFunctionBFD64CB9"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateMessagepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MutationUpdateMessageDataResolverFn/MutationUpdateMessageDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationUpdateMessageDataResolverFnMutationUpdateMessageDataResolverFnAppSyncFunctionB58B3391"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationUpdateMessageDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MutationdeleteMessageauth0Function/MutationdeleteMessageauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteMessageauth0FunctionMutationdeleteMessageauth0FunctionAppSyncFunction62C3584C"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteMessageauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MutationdeleteMessagepostAuth0Function/MutationdeleteMessagepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteMessagepostAuth0FunctionMutationdeleteMessagepostAuth0FunctionAppSyncFunctionF8C7F291"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteMessagepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MutationDeleteMessageDataResolverFn/MutationDeleteMessageDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationDeleteMessageDataResolverFnMutationDeleteMessageDataResolverFnAppSyncFunction0B12360C"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationDeleteMessageDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/SubscriptiononCreateMessageauth0Function/SubscriptiononCreateMessageauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateMessageauth0FunctionSubscriptiononCreateMessageauth0FunctionAppSyncFunctionDE27A6A7"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateMessageauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/SubscriptiononCreateMessagepostAuth0Function/SubscriptiononCreateMessagepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateMessagepostAuth0FunctionSubscriptiononCreateMessagepostAuth0FunctionAppSyncFunction8B82A0EC"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateMessagepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/SubscriptionOnCreateMessageDataResolverFn/SubscriptionOnCreateMessageDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnCreateMessageDataResolverFnSubscriptionOnCreateMessageDataResolverFnAppSyncFunction31753D6C"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnCreateMessageDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/SubscriptiononUpdateMessageauth0Function/SubscriptiononUpdateMessageauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateMessageauth0FunctionSubscriptiononUpdateMessageauth0FunctionAppSyncFunction0937163B"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateMessageauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/SubscriptiononUpdateMessagepostAuth0Function/SubscriptiononUpdateMessagepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateMessagepostAuth0FunctionSubscriptiononUpdateMessagepostAuth0FunctionAppSyncFunction4CD65C15"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateMessagepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/SubscriptionOnUpdateMessageDataResolverFn/SubscriptionOnUpdateMessageDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnUpdateMessageDataResolverFnSubscriptionOnUpdateMessageDataResolverFnAppSyncFunction1DF13B70"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnUpdateMessageDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/SubscriptiononDeleteMessageauth0Function/SubscriptiononDeleteMessageauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteMessageauth0FunctionSubscriptiononDeleteMessageauth0FunctionAppSyncFunction8B79E820"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteMessageauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/SubscriptiononDeleteMessagepostAuth0Function/SubscriptiononDeleteMessagepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteMessagepostAuth0FunctionSubscriptiononDeleteMessagepostAuth0FunctionAppSyncFunctionFFB8BD2A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteMessagepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/SubscriptionOnDeleteMessageDataResolverFn/SubscriptionOnDeleteMessageDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnDeleteMessageDataResolverFnSubscriptionOnDeleteMessageDataResolverFnAppSyncFunction0DFF4EAA"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnDeleteMessageDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/FoodDonationIAMRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FoodDonationIAMRole30A8B69F"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "FoodDonationIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/FoodDonationDataSource/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FoodDonationDataSource"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "FoodDonationTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/QuerygetFoodDonationauth0Function/QuerygetFoodDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetFoodDonationauth0FunctionQuerygetFoodDonationauth0FunctionAppSyncFunction0E6A1C6E"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetFoodDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/QuerygetFoodDonationpostAuth0Function/QuerygetFoodDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetFoodDonationpostAuth0FunctionQuerygetFoodDonationpostAuth0FunctionAppSyncFunction68DA96CF"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetFoodDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/QueryGetFoodDonationDataResolverFn/QueryGetFoodDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryGetFoodDonationDataResolverFnQueryGetFoodDonationDataResolverFnAppSyncFunctionD726E7B5"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryGetFoodDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/QuerylistFoodDonationsauth0Function/QuerylistFoodDonationsauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistFoodDonationsauth0FunctionQuerylistFoodDonationsauth0FunctionAppSyncFunction4492505F"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistFoodDonationsauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/QuerylistFoodDonationspostAuth0Function/QuerylistFoodDonationspostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistFoodDonationspostAuth0FunctionQuerylistFoodDonationspostAuth0FunctionAppSyncFunction0FCC90B9"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistFoodDonationspostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/QueryListFoodDonationsDataResolverFn/QueryListFoodDonationsDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryListFoodDonationsDataResolverFnQueryListFoodDonationsDataResolverFnAppSyncFunction080F4089"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryListFoodDonationsDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/MutationcreateFoodDonationinit0Function/MutationcreateFoodDonationinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateFoodDonationinit0FunctionMutationcreateFoodDonationinit0FunctionAppSyncFunction07AC8CCF"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateFoodDonationinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/MutationcreateFoodDonationauth0Function/MutationcreateFoodDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateFoodDonationauth0FunctionMutationcreateFoodDonationauth0FunctionAppSyncFunctionA2955310"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateFoodDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/MutationcreateFoodDonationpostAuth0Function/MutationcreateFoodDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateFoodDonationpostAuth0FunctionMutationcreateFoodDonationpostAuth0FunctionAppSyncFunctionC4D34551"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateFoodDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/MutationCreateFoodDonationDataResolverFn/MutationCreateFoodDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationCreateFoodDonationDataResolverFnMutationCreateFoodDonationDataResolverFnAppSyncFunction6E5097C8"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationCreateFoodDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/MutationupdateFoodDonationinit0Function/MutationupdateFoodDonationinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateFoodDonationinit0FunctionMutationupdateFoodDonationinit0FunctionAppSyncFunction2FE1948D"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateFoodDonationinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/MutationupdateFoodDonationauth0Function/MutationupdateFoodDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateFoodDonationauth0FunctionMutationupdateFoodDonationauth0FunctionAppSyncFunction5F9C28F5"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateFoodDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/MutationupdateFoodDonationpostAuth0Function/MutationupdateFoodDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateFoodDonationpostAuth0FunctionMutationupdateFoodDonationpostAuth0FunctionAppSyncFunction4D6EEB2D"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateFoodDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/MutationUpdateFoodDonationDataResolverFn/MutationUpdateFoodDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationUpdateFoodDonationDataResolverFnMutationUpdateFoodDonationDataResolverFnAppSyncFunction429E3A6D"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationUpdateFoodDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/MutationdeleteFoodDonationauth0Function/MutationdeleteFoodDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteFoodDonationauth0FunctionMutationdeleteFoodDonationauth0FunctionAppSyncFunction8C0BB2A6"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteFoodDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/MutationdeleteFoodDonationpostAuth0Function/MutationdeleteFoodDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteFoodDonationpostAuth0FunctionMutationdeleteFoodDonationpostAuth0FunctionAppSyncFunction4EC183C3"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteFoodDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/MutationDeleteFoodDonationDataResolverFn/MutationDeleteFoodDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationDeleteFoodDonationDataResolverFnMutationDeleteFoodDonationDataResolverFnAppSyncFunctionEA126FAB"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationDeleteFoodDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/SubscriptiononCreateFoodDonationauth0Function/SubscriptiononCreateFoodDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateFoodDonationauth0FunctionSubscriptiononCreateFoodDonationauth0FunctionAppSyncFunction23C20A78"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateFoodDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/SubscriptiononCreateFoodDonationpostAuth0Function/SubscriptiononCreateFoodDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateFoodDonationpostAuth0FunctionSubscriptiononCreateFoodDonationpostAuth0FunctionAppSyncFunctionC456E2B4"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateFoodDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/SubscriptionOnCreateFoodDonationDataResolverFn/SubscriptionOnCreateFoodDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnCreateFoodDonationDataResolverFnSubscriptionOnCreateFoodDonationDataResolverFnAppSyncFunction681C646A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnCreateFoodDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/SubscriptiononUpdateFoodDonationauth0Function/SubscriptiononUpdateFoodDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateFoodDonationauth0FunctionSubscriptiononUpdateFoodDonationauth0FunctionAppSyncFunction1CDDE18A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateFoodDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/SubscriptiononUpdateFoodDonationpostAuth0Function/SubscriptiononUpdateFoodDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateFoodDonationpostAuth0FunctionSubscriptiononUpdateFoodDonationpostAuth0FunctionAppSyncFunction4FE107FE"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateFoodDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/SubscriptionOnUpdateFoodDonationDataResolverFn/SubscriptionOnUpdateFoodDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnUpdateFoodDonationDataResolverFnSubscriptionOnUpdateFoodDonationDataResolverFnAppSyncFunction41061473"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnUpdateFoodDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/SubscriptiononDeleteFoodDonationauth0Function/SubscriptiononDeleteFoodDonationauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteFoodDonationauth0FunctionSubscriptiononDeleteFoodDonationauth0FunctionAppSyncFunctionC754E040"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteFoodDonationauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/SubscriptiononDeleteFoodDonationpostAuth0Function/SubscriptiononDeleteFoodDonationpostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteFoodDonationpostAuth0FunctionSubscriptiononDeleteFoodDonationpostAuth0FunctionAppSyncFunctionF6334305"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteFoodDonationpostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/SubscriptionOnDeleteFoodDonationDataResolverFn/SubscriptionOnDeleteFoodDonationDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnDeleteFoodDonationDataResolverFnSubscriptionOnDeleteFoodDonationDataResolverFnAppSyncFunctionD26F64DB"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnDeleteFoodDonationDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/TrustScoreIAMRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TrustScoreIAMRole8AB55BE6"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TrustScoreIAMRole"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/TrustScoreDataSource/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TrustScoreDataSource"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TrustScoreTable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/QuerygetTrustScoreauth0Function/QuerygetTrustScoreauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetTrustScoreauth0FunctionQuerygetTrustScoreauth0FunctionAppSyncFunction511FF1D6"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetTrustScoreauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/QuerygetTrustScorepostAuth0Function/QuerygetTrustScorepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerygetTrustScorepostAuth0FunctionQuerygetTrustScorepostAuth0FunctionAppSyncFunction227712BF"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerygetTrustScorepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/QueryGetTrustScoreDataResolverFn/QueryGetTrustScoreDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryGetTrustScoreDataResolverFnQueryGetTrustScoreDataResolverFnAppSyncFunctionC607BC22"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryGetTrustScoreDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/QuerylistTrustScoresauth0Function/QuerylistTrustScoresauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistTrustScoresauth0FunctionQuerylistTrustScoresauth0FunctionAppSyncFunction67C6C726"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistTrustScoresauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/QuerylistTrustScorespostAuth0Function/QuerylistTrustScorespostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QuerylistTrustScorespostAuth0FunctionQuerylistTrustScorespostAuth0FunctionAppSyncFunction3DC44041"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QuerylistTrustScorespostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/QueryListTrustScoresDataResolverFn/QueryListTrustScoresDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "QueryListTrustScoresDataResolverFnQueryListTrustScoresDataResolverFnAppSyncFunction328C63B3"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "QueryListTrustScoresDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/MutationcreateTrustScoreinit0Function/MutationcreateTrustScoreinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateTrustScoreinit0FunctionMutationcreateTrustScoreinit0FunctionAppSyncFunctionB34817FB"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateTrustScoreinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/MutationcreateTrustScoreauth0Function/MutationcreateTrustScoreauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateTrustScoreauth0FunctionMutationcreateTrustScoreauth0FunctionAppSyncFunction6014352A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateTrustScoreauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/MutationcreateTrustScorepostAuth0Function/MutationcreateTrustScorepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationcreateTrustScorepostAuth0FunctionMutationcreateTrustScorepostAuth0FunctionAppSyncFunction151B749E"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationcreateTrustScorepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/MutationCreateTrustScoreDataResolverFn/MutationCreateTrustScoreDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationCreateTrustScoreDataResolverFnMutationCreateTrustScoreDataResolverFnAppSyncFunction5C1E2518"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationCreateTrustScoreDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/MutationupdateTrustScoreinit0Function/MutationupdateTrustScoreinit0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateTrustScoreinit0FunctionMutationupdateTrustScoreinit0FunctionAppSyncFunction536C7633"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateTrustScoreinit0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/MutationupdateTrustScoreauth0Function/MutationupdateTrustScoreauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateTrustScoreauth0FunctionMutationupdateTrustScoreauth0FunctionAppSyncFunctionEAF479C8"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateTrustScoreauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/MutationupdateTrustScorepostAuth0Function/MutationupdateTrustScorepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationupdateTrustScorepostAuth0FunctionMutationupdateTrustScorepostAuth0FunctionAppSyncFunction978B4602"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationupdateTrustScorepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/MutationUpdateTrustScoreDataResolverFn/MutationUpdateTrustScoreDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationUpdateTrustScoreDataResolverFnMutationUpdateTrustScoreDataResolverFnAppSyncFunction55E910BA"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationUpdateTrustScoreDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/MutationdeleteTrustScoreauth0Function/MutationdeleteTrustScoreauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteTrustScoreauth0FunctionMutationdeleteTrustScoreauth0FunctionAppSyncFunctionE213B5C4"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteTrustScoreauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/MutationdeleteTrustScorepostAuth0Function/MutationdeleteTrustScorepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationdeleteTrustScorepostAuth0FunctionMutationdeleteTrustScorepostAuth0FunctionAppSyncFunctionC5DFCD70"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationdeleteTrustScorepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/MutationDeleteTrustScoreDataResolverFn/MutationDeleteTrustScoreDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MutationDeleteTrustScoreDataResolverFnMutationDeleteTrustScoreDataResolverFnAppSyncFunction6F39F021"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "MutationDeleteTrustScoreDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/SubscriptiononCreateTrustScoreauth0Function/SubscriptiononCreateTrustScoreauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateTrustScoreauth0FunctionSubscriptiononCreateTrustScoreauth0FunctionAppSyncFunctionCBBBD3EC"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateTrustScoreauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/SubscriptiononCreateTrustScorepostAuth0Function/SubscriptiononCreateTrustScorepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononCreateTrustScorepostAuth0FunctionSubscriptiononCreateTrustScorepostAuth0FunctionAppSyncFunction788D0BD9"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononCreateTrustScorepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/SubscriptionOnCreateTrustScoreDataResolverFn/SubscriptionOnCreateTrustScoreDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnCreateTrustScoreDataResolverFnSubscriptionOnCreateTrustScoreDataResolverFnAppSyncFunction38DCA7B4"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnCreateTrustScoreDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/SubscriptiononUpdateTrustScoreauth0Function/SubscriptiononUpdateTrustScoreauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateTrustScoreauth0FunctionSubscriptiononUpdateTrustScoreauth0FunctionAppSyncFunctionA3516AB1"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateTrustScoreauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/SubscriptiononUpdateTrustScorepostAuth0Function/SubscriptiononUpdateTrustScorepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononUpdateTrustScorepostAuth0FunctionSubscriptiononUpdateTrustScorepostAuth0FunctionAppSyncFunction15486A42"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononUpdateTrustScorepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/SubscriptionOnUpdateTrustScoreDataResolverFn/SubscriptionOnUpdateTrustScoreDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnUpdateTrustScoreDataResolverFnSubscriptionOnUpdateTrustScoreDataResolverFnAppSyncFunctionB0D07D5A"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnUpdateTrustScoreDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/SubscriptiononDeleteTrustScoreauth0Function/SubscriptiononDeleteTrustScoreauth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteTrustScoreauth0FunctionSubscriptiononDeleteTrustScoreauth0FunctionAppSyncFunction229BEDE5"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteTrustScoreauth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/SubscriptiononDeleteTrustScorepostAuth0Function/SubscriptiononDeleteTrustScorepostAuth0Function.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptiononDeleteTrustScorepostAuth0FunctionSubscriptiononDeleteTrustScorepostAuth0FunctionAppSyncFunctionC0F0A1D9"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptiononDeleteTrustScorepostAuth0Function"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/SubscriptionOnDeleteTrustScoreDataResolverFn/SubscriptionOnDeleteTrustScoreDataResolverFn.AppSyncFunction": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "SubscriptionOnDeleteTrustScoreDataResolverFnSubscriptionOnDeleteTrustScoreDataResolverFnAppSyncFunction2DB0ABCB"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "SubscriptionOnDeleteTrustScoreDataResolverFn"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucket9CCB4ACA"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiB/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C1536MiBServiceRoleDefaultPolicyFF1C635B"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/auth/AmplifySecretFetcherResourceProvider/framework-onEvent/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifySecretFetcherResourceProviderframeworkonEventServiceRoleDefaultPolicy749EBE05"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/AmplifyManagedTableOnEventRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyManagedTableOnEventRoleDefaultPolicyF6DABCB6"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-onEvent/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TableManagerCustomProviderframeworkonEvent1DFC2ECC"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/TableManagerCustomProvider/framework-isComplete/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TableManagerCustomProviderframeworkisComplete2E51021B"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyTableWaiterStateMachineRole470BE899"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/User/UserTable/Default/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UserTable"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "User"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AccidentReport/AccidentReportTable/Default/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AccidentReportTable"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "AccidentReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/CrimeReport/CrimeReportTable/Default/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CrimeReportTable"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "CrimeReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/WasteReport/WasteReportTable/Default/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WasteReportTable"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "WasteReport"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/Message/MessageTable/Default/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "MessageTable"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "Message"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/FoodDonation/FoodDonationTable/Default/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "FoodDonationTable"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "FoodDonation"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/TrustScore/TrustScoreTable/Default/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "TrustScoreTable"
+    },
+    {
+      "type": "graphqltransformer:resourceName",
+      "data": "TrustScore"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketPolicyF1C1C548"
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsBucketAutoDeleteObjectsCustomResource437F26F5"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/AwsCliLayer/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentAwsCliLayerE322F905"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsDeployment/CustomResource-1536MiB/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "amplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB21775929"
+    }
+  ],
+  "/amplify-smartcityplatform-hp-sandbox-96dcbdf449/data/amplifyData/AmplifyTableManager/AmplifyTableWaiterStateMachine/Role/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "AmplifyTableWaiterStateMachineRoleDefaultPolicy89F3836A"
+    }
+  ]
+}

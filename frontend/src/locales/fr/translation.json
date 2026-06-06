@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "how_it_works": "Comment ça marche",
+    "impact": "Impact",
+    "sign_in": "Se connecter",
+    "get_started": "Commencer →",
+    "dashboard": "Tableau de Bord",
+    "report_issue": "Signaler un Problème",
+    "issues_map": "Problèmes et Carte",
+    "admin": "Administration",
+    "sign_out": "Se déconnecter"
+  },
+  "landing": {
+    "hero_badge": "Actif dans 47 villes · 2,4 millions de citoyens connectés",
+    "hero_title_1": "La Ville Qui",
+    "hero_title_2": "Écoute et Agit",
+    "hero_sub": "SmartCity connecte les citoyens, l'IA et les responsables de la ville pour résoudre les problèmes urbains plus rapidement que jamais, grâce aux données en temps réel, à la transparence de la blockchain et à l'intelligence collective.",
+    "start_free": "🚀 Commencez Gratuitement",
+    "explore_map": "🗺️ Explorer la Carte",
+    "impact_title": "Impact",
+    "features_title": "Tout ce dont une Ville Intelligente a Besoin",
+    "features_sub": "De la détection de problèmes par l'IA aux pistes d'audit blockchain : chaque outil dont votre ville a besoin, sur une seule plateforme.",
+    "process_title": "Comment Fonctionne SmartCity",
+    "process_sub": "Du problème à la résolution en quatre étapes simples.",
+    "banner_title": "Construisons Ensemble une Ville Plus Intelligente",
+    "banner_sub": "Chaque signalement que vous soumettez rend votre ville meilleure pour tous."
+  },
+  "login": {
+    "welcome_back": "Bon retour",
+    "sign_in_sub": "Connectez-vous à votre tableau de bord de la ville",
+    "email_label": "Adresse e-mail",
+    "password_label": "Mot de passe",
+    "forgot_password": "Mot de passe oublié ?",
+    "sign_in_btn": "Se connecter →",
+    "phone_label": "Numéro de Téléphone",
+    "send_otp": "Envoyer le Code →",
+    "verify_otp": "Vérifier et Se Connecter →",
+    "change_phone": "Changer le Numéro de Téléphone",
+    "continue_google": "Continuer avec Google",
+    "no_account": "Pas de compte ?",
+    "create_one": "Créez-en un →",
+    "system_status": "Système opérationnel · Sécurisé par Firebase"
+  },
+  "register": {
+    "create_account": "Créer un Compte",
+    "join_platform": "Rejoignez la plateforme SmartCity",
+    "full_name": "Nom Complet",
+    "email": "Adresse E-mail",
+    "password": "Mot de passe",
+    "role": "Rôle",
+    "role_citizen": "👤 Citoyen",
+    "role_official": "🏛️ Responsable",
+    "role_admin": "⚙️ Administrateur",
+    "create_btn": "Créer un Compte →",
+    "continue_google": "Continuer avec Google",
+    "has_account": "Vous avez déjà un compte ?",
+    "sign_in": "Se connecter →"
+  },
+  "dashboard": {
+    "greeting_morning": "Bonjour",
+    "greeting_afternoon": "Bon après-midi",
+    "greeting_evening": "Bonsoir",
+    "total_issues": "Total des Problèmes",
+    "open_cases": "Cas Ouverts",
+    "critical_alerts": "Alertes Critiques",
+    "resolved_24h": "Résolus (24h)",
+    "recent_activity": "Activité Récente",
+    "priority_score": "pts",
+    "view_all": "Voir Tout",
+    "map_view": "Vue Carte"
+  }
+}

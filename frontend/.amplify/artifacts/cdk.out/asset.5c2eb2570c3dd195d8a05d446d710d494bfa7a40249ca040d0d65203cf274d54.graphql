@@ -1,0 +1,759 @@
+type User @aws_iam @aws_api_key {
+  email: String
+  displayName: String
+  role: String
+  avatarUrl: String
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+type AccidentReport @aws_iam @aws_api_key {
+  userId: String
+  location: String
+  description: String
+  status: String
+  severity: String
+  ambulanceRequested: Boolean
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+type CrimeReport @aws_iam @aws_api_key {
+  userId: String
+  type: String
+  location: String
+  description: String
+  status: String
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+type WasteReport @aws_iam @aws_api_key {
+  userId: String
+  location: String
+  description: String
+  status: String
+  imageUrl: String
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+type Message @aws_iam @aws_api_key {
+  senderId: String
+  receiverId: String
+  content: String
+  read: Boolean
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+type FoodDonation @aws_iam @aws_api_key {
+  donorId: String
+  foodType: String
+  quantity: String
+  location: String
+  expirationDate: AWSDateTime
+  status: String
+  claimedById: String
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+type TrustScore @aws_iam @aws_api_key {
+  userId: String
+  score: Int
+  lastUpdated: AWSDateTime
+  id: ID!
+  createdAt: AWSDateTime!
+  updatedAt: AWSDateTime!
+}
+
+input AmplifyAIConversationTurnErrorInput {
+  errorType: String!
+  message: String!
+}
+
+input ModelStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelBooleanInput {
+  ne: Boolean
+  eq: Boolean
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelSubscriptionStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  in: [String]
+  notIn: [String]
+}
+
+input ModelSubscriptionIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  in: [Int]
+  notIn: [Int]
+}
+
+input ModelSubscriptionFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  in: [Float]
+  notIn: [Float]
+}
+
+input ModelSubscriptionBooleanInput {
+  ne: Boolean
+  eq: Boolean
+}
+
+input ModelSubscriptionIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  in: [ID]
+  notIn: [ID]
+}
+
+enum ModelAttributeTypes {
+  binary
+  binarySet
+  bool
+  list
+  map
+  number
+  numberSet
+  string
+  stringSet
+  _null
+}
+
+input ModelSizeInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+}
+
+enum ModelSortDirection {
+  ASC
+  DESC
+}
+
+type ModelUserConnection @aws_api_key @aws_iam {
+  items: [User]!
+  nextToken: String
+}
+
+input ModelUserFilterInput {
+  email: ModelStringInput
+  displayName: ModelStringInput
+  role: ModelStringInput
+  avatarUrl: ModelStringInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelUserFilterInput]
+  or: [ModelUserFilterInput]
+  not: ModelUserFilterInput
+}
+
+type Query {
+  getUser(id: ID!): User @aws_api_key @aws_iam
+  listUsers(filter: ModelUserFilterInput, limit: Int, nextToken: String): ModelUserConnection @aws_api_key @aws_iam
+  getAccidentReport(id: ID!): AccidentReport @aws_api_key @aws_iam
+  listAccidentReports(filter: ModelAccidentReportFilterInput, limit: Int, nextToken: String): ModelAccidentReportConnection @aws_api_key @aws_iam
+  getCrimeReport(id: ID!): CrimeReport @aws_api_key @aws_iam
+  listCrimeReports(filter: ModelCrimeReportFilterInput, limit: Int, nextToken: String): ModelCrimeReportConnection @aws_api_key @aws_iam
+  getWasteReport(id: ID!): WasteReport @aws_api_key @aws_iam
+  listWasteReports(filter: ModelWasteReportFilterInput, limit: Int, nextToken: String): ModelWasteReportConnection @aws_api_key @aws_iam
+  getMessage(id: ID!): Message @aws_api_key @aws_iam
+  listMessages(filter: ModelMessageFilterInput, limit: Int, nextToken: String): ModelMessageConnection @aws_api_key @aws_iam
+  getFoodDonation(id: ID!): FoodDonation @aws_api_key @aws_iam
+  listFoodDonations(filter: ModelFoodDonationFilterInput, limit: Int, nextToken: String): ModelFoodDonationConnection @aws_api_key @aws_iam
+  getTrustScore(id: ID!): TrustScore @aws_api_key @aws_iam
+  listTrustScores(filter: ModelTrustScoreFilterInput, limit: Int, nextToken: String): ModelTrustScoreConnection @aws_api_key @aws_iam
+}
+
+input ModelUserConditionInput {
+  email: ModelStringInput
+  displayName: ModelStringInput
+  role: ModelStringInput
+  avatarUrl: ModelStringInput
+  and: [ModelUserConditionInput]
+  or: [ModelUserConditionInput]
+  not: ModelUserConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+}
+
+input CreateUserInput {
+  email: String
+  displayName: String
+  role: String
+  avatarUrl: String
+  id: ID
+}
+
+input UpdateUserInput {
+  email: String
+  displayName: String
+  role: String
+  avatarUrl: String
+  id: ID!
+}
+
+input DeleteUserInput {
+  id: ID!
+}
+
+type Mutation {
+  createUser(input: CreateUserInput!, condition: ModelUserConditionInput): User @aws_api_key @aws_iam
+  updateUser(input: UpdateUserInput!, condition: ModelUserConditionInput): User @aws_api_key @aws_iam
+  deleteUser(input: DeleteUserInput!, condition: ModelUserConditionInput): User @aws_api_key @aws_iam
+  createAccidentReport(input: CreateAccidentReportInput!, condition: ModelAccidentReportConditionInput): AccidentReport @aws_api_key @aws_iam
+  updateAccidentReport(input: UpdateAccidentReportInput!, condition: ModelAccidentReportConditionInput): AccidentReport @aws_api_key @aws_iam
+  deleteAccidentReport(input: DeleteAccidentReportInput!, condition: ModelAccidentReportConditionInput): AccidentReport @aws_api_key @aws_iam
+  createCrimeReport(input: CreateCrimeReportInput!, condition: ModelCrimeReportConditionInput): CrimeReport @aws_api_key @aws_iam
+  updateCrimeReport(input: UpdateCrimeReportInput!, condition: ModelCrimeReportConditionInput): CrimeReport @aws_api_key @aws_iam
+  deleteCrimeReport(input: DeleteCrimeReportInput!, condition: ModelCrimeReportConditionInput): CrimeReport @aws_api_key @aws_iam
+  createWasteReport(input: CreateWasteReportInput!, condition: ModelWasteReportConditionInput): WasteReport @aws_api_key @aws_iam
+  updateWasteReport(input: UpdateWasteReportInput!, condition: ModelWasteReportConditionInput): WasteReport @aws_api_key @aws_iam
+  deleteWasteReport(input: DeleteWasteReportInput!, condition: ModelWasteReportConditionInput): WasteReport @aws_api_key @aws_iam
+  createMessage(input: CreateMessageInput!, condition: ModelMessageConditionInput): Message @aws_api_key @aws_iam
+  updateMessage(input: UpdateMessageInput!, condition: ModelMessageConditionInput): Message @aws_api_key @aws_iam
+  deleteMessage(input: DeleteMessageInput!, condition: ModelMessageConditionInput): Message @aws_api_key @aws_iam
+  createFoodDonation(input: CreateFoodDonationInput!, condition: ModelFoodDonationConditionInput): FoodDonation @aws_api_key @aws_iam
+  updateFoodDonation(input: UpdateFoodDonationInput!, condition: ModelFoodDonationConditionInput): FoodDonation @aws_api_key @aws_iam
+  deleteFoodDonation(input: DeleteFoodDonationInput!, condition: ModelFoodDonationConditionInput): FoodDonation @aws_api_key @aws_iam
+  createTrustScore(input: CreateTrustScoreInput!, condition: ModelTrustScoreConditionInput): TrustScore @aws_api_key @aws_iam
+  updateTrustScore(input: UpdateTrustScoreInput!, condition: ModelTrustScoreConditionInput): TrustScore @aws_api_key @aws_iam
+  deleteTrustScore(input: DeleteTrustScoreInput!, condition: ModelTrustScoreConditionInput): TrustScore @aws_api_key @aws_iam
+}
+
+input ModelSubscriptionUserFilterInput {
+  email: ModelSubscriptionStringInput
+  displayName: ModelSubscriptionStringInput
+  role: ModelSubscriptionStringInput
+  avatarUrl: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionUserFilterInput]
+  or: [ModelSubscriptionUserFilterInput]
+}
+
+type Subscription {
+  onCreateUser(filter: ModelSubscriptionUserFilterInput): User @aws_subscribe(mutations: ["createUser"]) @aws_api_key @aws_iam
+  onUpdateUser(filter: ModelSubscriptionUserFilterInput): User @aws_subscribe(mutations: ["updateUser"]) @aws_api_key @aws_iam
+  onDeleteUser(filter: ModelSubscriptionUserFilterInput): User @aws_subscribe(mutations: ["deleteUser"]) @aws_api_key @aws_iam
+  onCreateAccidentReport(filter: ModelSubscriptionAccidentReportFilterInput): AccidentReport @aws_subscribe(mutations: ["createAccidentReport"]) @aws_api_key @aws_iam
+  onUpdateAccidentReport(filter: ModelSubscriptionAccidentReportFilterInput): AccidentReport @aws_subscribe(mutations: ["updateAccidentReport"]) @aws_api_key @aws_iam
+  onDeleteAccidentReport(filter: ModelSubscriptionAccidentReportFilterInput): AccidentReport @aws_subscribe(mutations: ["deleteAccidentReport"]) @aws_api_key @aws_iam
+  onCreateCrimeReport(filter: ModelSubscriptionCrimeReportFilterInput): CrimeReport @aws_subscribe(mutations: ["createCrimeReport"]) @aws_api_key @aws_iam
+  onUpdateCrimeReport(filter: ModelSubscriptionCrimeReportFilterInput): CrimeReport @aws_subscribe(mutations: ["updateCrimeReport"]) @aws_api_key @aws_iam
+  onDeleteCrimeReport(filter: ModelSubscriptionCrimeReportFilterInput): CrimeReport @aws_subscribe(mutations: ["deleteCrimeReport"]) @aws_api_key @aws_iam
+  onCreateWasteReport(filter: ModelSubscriptionWasteReportFilterInput): WasteReport @aws_subscribe(mutations: ["createWasteReport"]) @aws_api_key @aws_iam
+  onUpdateWasteReport(filter: ModelSubscriptionWasteReportFilterInput): WasteReport @aws_subscribe(mutations: ["updateWasteReport"]) @aws_api_key @aws_iam
+  onDeleteWasteReport(filter: ModelSubscriptionWasteReportFilterInput): WasteReport @aws_subscribe(mutations: ["deleteWasteReport"]) @aws_api_key @aws_iam
+  onCreateMessage(filter: ModelSubscriptionMessageFilterInput): Message @aws_subscribe(mutations: ["createMessage"]) @aws_api_key @aws_iam
+  onUpdateMessage(filter: ModelSubscriptionMessageFilterInput): Message @aws_subscribe(mutations: ["updateMessage"]) @aws_api_key @aws_iam
+  onDeleteMessage(filter: ModelSubscriptionMessageFilterInput): Message @aws_subscribe(mutations: ["deleteMessage"]) @aws_api_key @aws_iam
+  onCreateFoodDonation(filter: ModelSubscriptionFoodDonationFilterInput): FoodDonation @aws_subscribe(mutations: ["createFoodDonation"]) @aws_api_key @aws_iam
+  onUpdateFoodDonation(filter: ModelSubscriptionFoodDonationFilterInput): FoodDonation @aws_subscribe(mutations: ["updateFoodDonation"]) @aws_api_key @aws_iam
+  onDeleteFoodDonation(filter: ModelSubscriptionFoodDonationFilterInput): FoodDonation @aws_subscribe(mutations: ["deleteFoodDonation"]) @aws_api_key @aws_iam
+  onCreateTrustScore(filter: ModelSubscriptionTrustScoreFilterInput): TrustScore @aws_subscribe(mutations: ["createTrustScore"]) @aws_api_key @aws_iam
+  onUpdateTrustScore(filter: ModelSubscriptionTrustScoreFilterInput): TrustScore @aws_subscribe(mutations: ["updateTrustScore"]) @aws_api_key @aws_iam
+  onDeleteTrustScore(filter: ModelSubscriptionTrustScoreFilterInput): TrustScore @aws_subscribe(mutations: ["deleteTrustScore"]) @aws_api_key @aws_iam
+}
+
+type ModelAccidentReportConnection @aws_api_key @aws_iam {
+  items: [AccidentReport]!
+  nextToken: String
+}
+
+input ModelAccidentReportFilterInput {
+  userId: ModelStringInput
+  location: ModelStringInput
+  description: ModelStringInput
+  status: ModelStringInput
+  severity: ModelStringInput
+  ambulanceRequested: ModelBooleanInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelAccidentReportFilterInput]
+  or: [ModelAccidentReportFilterInput]
+  not: ModelAccidentReportFilterInput
+}
+
+input ModelAccidentReportConditionInput {
+  userId: ModelStringInput
+  location: ModelStringInput
+  description: ModelStringInput
+  status: ModelStringInput
+  severity: ModelStringInput
+  ambulanceRequested: ModelBooleanInput
+  and: [ModelAccidentReportConditionInput]
+  or: [ModelAccidentReportConditionInput]
+  not: ModelAccidentReportConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+}
+
+input CreateAccidentReportInput {
+  userId: String
+  location: String
+  description: String
+  status: String
+  severity: String
+  ambulanceRequested: Boolean
+  id: ID
+}
+
+input UpdateAccidentReportInput {
+  userId: String
+  location: String
+  description: String
+  status: String
+  severity: String
+  ambulanceRequested: Boolean
+  id: ID!
+}
+
+input DeleteAccidentReportInput {
+  id: ID!
+}
+
+input ModelSubscriptionAccidentReportFilterInput {
+  userId: ModelSubscriptionStringInput
+  location: ModelSubscriptionStringInput
+  description: ModelSubscriptionStringInput
+  status: ModelSubscriptionStringInput
+  severity: ModelSubscriptionStringInput
+  ambulanceRequested: ModelSubscriptionBooleanInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionAccidentReportFilterInput]
+  or: [ModelSubscriptionAccidentReportFilterInput]
+}
+
+type ModelCrimeReportConnection @aws_api_key @aws_iam {
+  items: [CrimeReport]!
+  nextToken: String
+}
+
+input ModelCrimeReportFilterInput {
+  userId: ModelStringInput
+  type: ModelStringInput
+  location: ModelStringInput
+  description: ModelStringInput
+  status: ModelStringInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelCrimeReportFilterInput]
+  or: [ModelCrimeReportFilterInput]
+  not: ModelCrimeReportFilterInput
+}
+
+input ModelCrimeReportConditionInput {
+  userId: ModelStringInput
+  type: ModelStringInput
+  location: ModelStringInput
+  description: ModelStringInput
+  status: ModelStringInput
+  and: [ModelCrimeReportConditionInput]
+  or: [ModelCrimeReportConditionInput]
+  not: ModelCrimeReportConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+}
+
+input CreateCrimeReportInput {
+  userId: String
+  type: String
+  location: String
+  description: String
+  status: String
+  id: ID
+}
+
+input UpdateCrimeReportInput {
+  userId: String
+  type: String
+  location: String
+  description: String
+  status: String
+  id: ID!
+}
+
+input DeleteCrimeReportInput {
+  id: ID!
+}
+
+input ModelSubscriptionCrimeReportFilterInput {
+  userId: ModelSubscriptionStringInput
+  type: ModelSubscriptionStringInput
+  location: ModelSubscriptionStringInput
+  description: ModelSubscriptionStringInput
+  status: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionCrimeReportFilterInput]
+  or: [ModelSubscriptionCrimeReportFilterInput]
+}
+
+type ModelWasteReportConnection @aws_api_key @aws_iam {
+  items: [WasteReport]!
+  nextToken: String
+}
+
+input ModelWasteReportFilterInput {
+  userId: ModelStringInput
+  location: ModelStringInput
+  description: ModelStringInput
+  status: ModelStringInput
+  imageUrl: ModelStringInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelWasteReportFilterInput]
+  or: [ModelWasteReportFilterInput]
+  not: ModelWasteReportFilterInput
+}
+
+input ModelWasteReportConditionInput {
+  userId: ModelStringInput
+  location: ModelStringInput
+  description: ModelStringInput
+  status: ModelStringInput
+  imageUrl: ModelStringInput
+  and: [ModelWasteReportConditionInput]
+  or: [ModelWasteReportConditionInput]
+  not: ModelWasteReportConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+}
+
+input CreateWasteReportInput {
+  userId: String
+  location: String
+  description: String
+  status: String
+  imageUrl: String
+  id: ID
+}
+
+input UpdateWasteReportInput {
+  userId: String
+  location: String
+  description: String
+  status: String
+  imageUrl: String
+  id: ID!
+}
+
+input DeleteWasteReportInput {
+  id: ID!
+}
+
+input ModelSubscriptionWasteReportFilterInput {
+  userId: ModelSubscriptionStringInput
+  location: ModelSubscriptionStringInput
+  description: ModelSubscriptionStringInput
+  status: ModelSubscriptionStringInput
+  imageUrl: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionWasteReportFilterInput]
+  or: [ModelSubscriptionWasteReportFilterInput]
+}
+
+type ModelMessageConnection @aws_api_key @aws_iam {
+  items: [Message]!
+  nextToken: String
+}
+
+input ModelMessageFilterInput {
+  senderId: ModelStringInput
+  receiverId: ModelStringInput
+  content: ModelStringInput
+  read: ModelBooleanInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelMessageFilterInput]
+  or: [ModelMessageFilterInput]
+  not: ModelMessageFilterInput
+}
+
+input ModelMessageConditionInput {
+  senderId: ModelStringInput
+  receiverId: ModelStringInput
+  content: ModelStringInput
+  read: ModelBooleanInput
+  and: [ModelMessageConditionInput]
+  or: [ModelMessageConditionInput]
+  not: ModelMessageConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+}
+
+input CreateMessageInput {
+  senderId: String
+  receiverId: String
+  content: String
+  read: Boolean
+  id: ID
+}
+
+input UpdateMessageInput {
+  senderId: String
+  receiverId: String
+  content: String
+  read: Boolean
+  id: ID!
+}
+
+input DeleteMessageInput {
+  id: ID!
+}
+
+input ModelSubscriptionMessageFilterInput {
+  senderId: ModelSubscriptionStringInput
+  receiverId: ModelSubscriptionStringInput
+  content: ModelSubscriptionStringInput
+  read: ModelSubscriptionBooleanInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionMessageFilterInput]
+  or: [ModelSubscriptionMessageFilterInput]
+}
+
+type ModelFoodDonationConnection @aws_api_key @aws_iam {
+  items: [FoodDonation]!
+  nextToken: String
+}
+
+input ModelFoodDonationFilterInput {
+  donorId: ModelStringInput
+  foodType: ModelStringInput
+  quantity: ModelStringInput
+  location: ModelStringInput
+  expirationDate: ModelStringInput
+  status: ModelStringInput
+  claimedById: ModelStringInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelFoodDonationFilterInput]
+  or: [ModelFoodDonationFilterInput]
+  not: ModelFoodDonationFilterInput
+}
+
+input ModelFoodDonationConditionInput {
+  donorId: ModelStringInput
+  foodType: ModelStringInput
+  quantity: ModelStringInput
+  location: ModelStringInput
+  expirationDate: ModelStringInput
+  status: ModelStringInput
+  claimedById: ModelStringInput
+  and: [ModelFoodDonationConditionInput]
+  or: [ModelFoodDonationConditionInput]
+  not: ModelFoodDonationConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+}
+
+input CreateFoodDonationInput {
+  donorId: String
+  foodType: String
+  quantity: String
+  location: String
+  expirationDate: AWSDateTime
+  status: String
+  claimedById: String
+  id: ID
+}
+
+input UpdateFoodDonationInput {
+  donorId: String
+  foodType: String
+  quantity: String
+  location: String
+  expirationDate: AWSDateTime
+  status: String
+  claimedById: String
+  id: ID!
+}
+
+input DeleteFoodDonationInput {
+  id: ID!
+}
+
+input ModelSubscriptionFoodDonationFilterInput {
+  donorId: ModelSubscriptionStringInput
+  foodType: ModelSubscriptionStringInput
+  quantity: ModelSubscriptionStringInput
+  location: ModelSubscriptionStringInput
+  expirationDate: ModelSubscriptionStringInput
+  status: ModelSubscriptionStringInput
+  claimedById: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionFoodDonationFilterInput]
+  or: [ModelSubscriptionFoodDonationFilterInput]
+}
+
+type ModelTrustScoreConnection @aws_api_key @aws_iam {
+  items: [TrustScore]!
+  nextToken: String
+}
+
+input ModelTrustScoreFilterInput {
+  userId: ModelStringInput
+  score: ModelIntInput
+  lastUpdated: ModelStringInput
+  id: ModelIDInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+  and: [ModelTrustScoreFilterInput]
+  or: [ModelTrustScoreFilterInput]
+  not: ModelTrustScoreFilterInput
+}
+
+input ModelTrustScoreConditionInput {
+  userId: ModelStringInput
+  score: ModelIntInput
+  lastUpdated: ModelStringInput
+  and: [ModelTrustScoreConditionInput]
+  or: [ModelTrustScoreConditionInput]
+  not: ModelTrustScoreConditionInput
+  createdAt: ModelStringInput
+  updatedAt: ModelStringInput
+}
+
+input CreateTrustScoreInput {
+  userId: String
+  score: Int
+  lastUpdated: AWSDateTime
+  id: ID
+}
+
+input UpdateTrustScoreInput {
+  userId: String
+  score: Int
+  lastUpdated: AWSDateTime
+  id: ID!
+}
+
+input DeleteTrustScoreInput {
+  id: ID!
+}
+
+input ModelSubscriptionTrustScoreFilterInput {
+  userId: ModelSubscriptionStringInput
+  score: ModelSubscriptionIntInput
+  lastUpdated: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  createdAt: ModelSubscriptionStringInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionTrustScoreFilterInput]
+  or: [ModelSubscriptionTrustScoreFilterInput]
+}

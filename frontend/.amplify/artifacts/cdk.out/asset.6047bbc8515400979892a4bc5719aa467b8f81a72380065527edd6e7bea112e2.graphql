@@ -1,0 +1,409 @@
+type Issue @aws_iam @aws_api_key {
+  userId: String
+  description: String
+  category: String
+  address: String
+  status: String
+  createdAt: AWSDateTime
+  id: ID!
+  updatedAt: AWSDateTime!
+}
+
+type Crime @aws_iam @aws_api_key {
+  userId: String
+  type: String
+  location: String
+  description: String
+  createdAt: AWSDateTime
+  id: ID!
+  updatedAt: AWSDateTime!
+}
+
+type Accident @aws_iam @aws_api_key {
+  userId: String
+  location: String
+  description: String
+  createdAt: AWSDateTime
+  id: ID!
+  updatedAt: AWSDateTime!
+}
+
+input AmplifyAIConversationTurnErrorInput {
+  errorType: String!
+  message: String!
+}
+
+input ModelStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelBooleanInput {
+  ne: Boolean
+  eq: Boolean
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+}
+
+input ModelIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  attributeExists: Boolean
+  attributeType: ModelAttributeTypes
+  size: ModelSizeInput
+}
+
+input ModelSubscriptionStringInput {
+  ne: String
+  eq: String
+  le: String
+  lt: String
+  ge: String
+  gt: String
+  contains: String
+  notContains: String
+  between: [String]
+  beginsWith: String
+  in: [String]
+  notIn: [String]
+}
+
+input ModelSubscriptionIntInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+  in: [Int]
+  notIn: [Int]
+}
+
+input ModelSubscriptionFloatInput {
+  ne: Float
+  eq: Float
+  le: Float
+  lt: Float
+  ge: Float
+  gt: Float
+  between: [Float]
+  in: [Float]
+  notIn: [Float]
+}
+
+input ModelSubscriptionBooleanInput {
+  ne: Boolean
+  eq: Boolean
+}
+
+input ModelSubscriptionIDInput {
+  ne: ID
+  eq: ID
+  le: ID
+  lt: ID
+  ge: ID
+  gt: ID
+  contains: ID
+  notContains: ID
+  between: [ID]
+  beginsWith: ID
+  in: [ID]
+  notIn: [ID]
+}
+
+enum ModelAttributeTypes {
+  binary
+  binarySet
+  bool
+  list
+  map
+  number
+  numberSet
+  string
+  stringSet
+  _null
+}
+
+input ModelSizeInput {
+  ne: Int
+  eq: Int
+  le: Int
+  lt: Int
+  ge: Int
+  gt: Int
+  between: [Int]
+}
+
+enum ModelSortDirection {
+  ASC
+  DESC
+}
+
+type ModelIssueConnection @aws_api_key @aws_iam {
+  items: [Issue]!
+  nextToken: String
+}
+
+input ModelIssueFilterInput {
+  userId: ModelStringInput
+  description: ModelStringInput
+  category: ModelStringInput
+  address: ModelStringInput
+  status: ModelStringInput
+  createdAt: ModelStringInput
+  id: ModelIDInput
+  updatedAt: ModelStringInput
+  and: [ModelIssueFilterInput]
+  or: [ModelIssueFilterInput]
+  not: ModelIssueFilterInput
+}
+
+type Query {
+  getIssue(id: ID!): Issue @aws_api_key @aws_iam
+  listIssues(filter: ModelIssueFilterInput, limit: Int, nextToken: String): ModelIssueConnection @aws_api_key @aws_iam
+  getCrime(id: ID!): Crime @aws_api_key @aws_iam
+  listCrimes(filter: ModelCrimeFilterInput, limit: Int, nextToken: String): ModelCrimeConnection @aws_api_key @aws_iam
+  getAccident(id: ID!): Accident @aws_api_key @aws_iam
+  listAccidents(filter: ModelAccidentFilterInput, limit: Int, nextToken: String): ModelAccidentConnection @aws_api_key @aws_iam
+}
+
+input ModelIssueConditionInput {
+  userId: ModelStringInput
+  description: ModelStringInput
+  category: ModelStringInput
+  address: ModelStringInput
+  status: ModelStringInput
+  createdAt: ModelStringInput
+  and: [ModelIssueConditionInput]
+  or: [ModelIssueConditionInput]
+  not: ModelIssueConditionInput
+  updatedAt: ModelStringInput
+}
+
+input CreateIssueInput {
+  userId: String
+  description: String
+  category: String
+  address: String
+  status: String
+  createdAt: AWSDateTime
+  id: ID
+}
+
+input UpdateIssueInput {
+  userId: String
+  description: String
+  category: String
+  address: String
+  status: String
+  createdAt: AWSDateTime
+  id: ID!
+}
+
+input DeleteIssueInput {
+  id: ID!
+}
+
+type Mutation {
+  createIssue(input: CreateIssueInput!, condition: ModelIssueConditionInput): Issue @aws_api_key @aws_iam
+  updateIssue(input: UpdateIssueInput!, condition: ModelIssueConditionInput): Issue @aws_api_key @aws_iam
+  deleteIssue(input: DeleteIssueInput!, condition: ModelIssueConditionInput): Issue @aws_api_key @aws_iam
+  createCrime(input: CreateCrimeInput!, condition: ModelCrimeConditionInput): Crime @aws_api_key @aws_iam
+  updateCrime(input: UpdateCrimeInput!, condition: ModelCrimeConditionInput): Crime @aws_api_key @aws_iam
+  deleteCrime(input: DeleteCrimeInput!, condition: ModelCrimeConditionInput): Crime @aws_api_key @aws_iam
+  createAccident(input: CreateAccidentInput!, condition: ModelAccidentConditionInput): Accident @aws_api_key @aws_iam
+  updateAccident(input: UpdateAccidentInput!, condition: ModelAccidentConditionInput): Accident @aws_api_key @aws_iam
+  deleteAccident(input: DeleteAccidentInput!, condition: ModelAccidentConditionInput): Accident @aws_api_key @aws_iam
+}
+
+input ModelSubscriptionIssueFilterInput {
+  userId: ModelSubscriptionStringInput
+  description: ModelSubscriptionStringInput
+  category: ModelSubscriptionStringInput
+  address: ModelSubscriptionStringInput
+  status: ModelSubscriptionStringInput
+  createdAt: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionIssueFilterInput]
+  or: [ModelSubscriptionIssueFilterInput]
+}
+
+type Subscription {
+  onCreateIssue(filter: ModelSubscriptionIssueFilterInput): Issue @aws_subscribe(mutations: ["createIssue"]) @aws_api_key @aws_iam
+  onUpdateIssue(filter: ModelSubscriptionIssueFilterInput): Issue @aws_subscribe(mutations: ["updateIssue"]) @aws_api_key @aws_iam
+  onDeleteIssue(filter: ModelSubscriptionIssueFilterInput): Issue @aws_subscribe(mutations: ["deleteIssue"]) @aws_api_key @aws_iam
+  onCreateCrime(filter: ModelSubscriptionCrimeFilterInput): Crime @aws_subscribe(mutations: ["createCrime"]) @aws_api_key @aws_iam
+  onUpdateCrime(filter: ModelSubscriptionCrimeFilterInput): Crime @aws_subscribe(mutations: ["updateCrime"]) @aws_api_key @aws_iam
+  onDeleteCrime(filter: ModelSubscriptionCrimeFilterInput): Crime @aws_subscribe(mutations: ["deleteCrime"]) @aws_api_key @aws_iam
+  onCreateAccident(filter: ModelSubscriptionAccidentFilterInput): Accident @aws_subscribe(mutations: ["createAccident"]) @aws_api_key @aws_iam
+  onUpdateAccident(filter: ModelSubscriptionAccidentFilterInput): Accident @aws_subscribe(mutations: ["updateAccident"]) @aws_api_key @aws_iam
+  onDeleteAccident(filter: ModelSubscriptionAccidentFilterInput): Accident @aws_subscribe(mutations: ["deleteAccident"]) @aws_api_key @aws_iam
+}
+
+type ModelCrimeConnection @aws_api_key @aws_iam {
+  items: [Crime]!
+  nextToken: String
+}
+
+input ModelCrimeFilterInput {
+  userId: ModelStringInput
+  type: ModelStringInput
+  location: ModelStringInput
+  description: ModelStringInput
+  createdAt: ModelStringInput
+  id: ModelIDInput
+  updatedAt: ModelStringInput
+  and: [ModelCrimeFilterInput]
+  or: [ModelCrimeFilterInput]
+  not: ModelCrimeFilterInput
+}
+
+input ModelCrimeConditionInput {
+  userId: ModelStringInput
+  type: ModelStringInput
+  location: ModelStringInput
+  description: ModelStringInput
+  createdAt: ModelStringInput
+  and: [ModelCrimeConditionInput]
+  or: [ModelCrimeConditionInput]
+  not: ModelCrimeConditionInput
+  updatedAt: ModelStringInput
+}
+
+input CreateCrimeInput {
+  userId: String
+  type: String
+  location: String
+  description: String
+  createdAt: AWSDateTime
+  id: ID
+}
+
+input UpdateCrimeInput {
+  userId: String
+  type: String
+  location: String
+  description: String
+  createdAt: AWSDateTime
+  id: ID!
+}
+
+input DeleteCrimeInput {
+  id: ID!
+}
+
+input ModelSubscriptionCrimeFilterInput {
+  userId: ModelSubscriptionStringInput
+  type: ModelSubscriptionStringInput
+  location: ModelSubscriptionStringInput
+  description: ModelSubscriptionStringInput
+  createdAt: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionCrimeFilterInput]
+  or: [ModelSubscriptionCrimeFilterInput]
+}
+
+type ModelAccidentConnection @aws_api_key @aws_iam {
+  items: [Accident]!
+  nextToken: String
+}
+
+input ModelAccidentFilterInput {
+  userId: ModelStringInput
+  location: ModelStringInput
+  description: ModelStringInput
+  createdAt: ModelStringInput
+  id: ModelIDInput
+  updatedAt: ModelStringInput
+  and: [ModelAccidentFilterInput]
+  or: [ModelAccidentFilterInput]
+  not: ModelAccidentFilterInput
+}
+
+input ModelAccidentConditionInput {
+  userId: ModelStringInput
+  location: ModelStringInput
+  description: ModelStringInput
+  createdAt: ModelStringInput
+  and: [ModelAccidentConditionInput]
+  or: [ModelAccidentConditionInput]
+  not: ModelAccidentConditionInput
+  updatedAt: ModelStringInput
+}
+
+input CreateAccidentInput {
+  userId: String
+  location: String
+  description: String
+  createdAt: AWSDateTime
+  id: ID
+}
+
+input UpdateAccidentInput {
+  userId: String
+  location: String
+  description: String
+  createdAt: AWSDateTime
+  id: ID!
+}
+
+input DeleteAccidentInput {
+  id: ID!
+}
+
+input ModelSubscriptionAccidentFilterInput {
+  userId: ModelSubscriptionStringInput
+  location: ModelSubscriptionStringInput
+  description: ModelSubscriptionStringInput
+  createdAt: ModelSubscriptionStringInput
+  id: ModelSubscriptionIDInput
+  updatedAt: ModelSubscriptionStringInput
+  and: [ModelSubscriptionAccidentFilterInput]
+  or: [ModelSubscriptionAccidentFilterInput]
+}
