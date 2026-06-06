@@ -1,0 +1,33 @@
+# Core Flask
+Flask==3.0.0
+Flask-Cors==4.0.0
+Flask-Bcrypt==1.0.1
+Flask-JWT-Extended==4.7.1
+Flask-Limiter==4.1.1
+Flask-SocketIO==5.5.1
+gunicorn==23.0.0
+Werkzeug==3.1.3
+Jinja2==3.1.6
+itsdangerous==2.2.0
+click==8.3.1
+MarkupSafe==3.0.2
+blinker==1.9.0
+
+# AWS SDK
+boto3==1.43.23
+botocore==1.43.23
+
+# Auth & Security
+PyJWT==2.10.1
+bcrypt==4.3.0
+cryptography==46.0.3
+
+# ML (lightweight only - TensorFlow/PyTorch handled by SageMaker)
+numpy==2.1.2
+pandas==2.2.3
+scikit-learn==1.5.2
+xgboost==3.2.0
+joblib==1.4.2
+
+# Utilities
+requests==2.32.3
